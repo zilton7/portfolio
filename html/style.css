@@ -21,6 +21,24 @@ body {
     height: 430rem;
 }
 
+.nav-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    margin-top: 5rem;
+}
+
+.nav a {
+    margin-left: 5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
 .top {
     position: absolute;
     left: 54rem;
@@ -56,6 +74,16 @@ body {
     color: #FFFFFF;
     
 }
+
+.circle {
+    position: absolute;
+    top: -3rem;
+    left: 43rem;
+    height: 9rem;
+    width: 9rem;
+    background-color: var(--accent);
+    border-radius: 50%;
+  }
 
 .about {
     width: 564px;
