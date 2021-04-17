@@ -52,7 +52,7 @@ main {
 
 .top {
   position: relative;
-  width: 30vw;
+  width: 33vw;
 }
 
 .number {
@@ -71,9 +71,23 @@ main {
   opacity: 0.2;
 }
 
+.name-wrapper {
+  width: 33vw;
+  position: relative;
+  /* border: 0.1rem solid white; */
+}
+
+.circle {
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+  height: 9rem;
+  width: 9rem;
+  background-color: var(--accent);
+  border-radius: 50%;
+}
+
 .name {
-  width: 48rem;
-  height: 22rem;
   font-family: Playfair Display;
   font-style: normal;
   font-weight: normal;
@@ -82,21 +96,8 @@ main {
   color: #ffffff;
 }
 
-.circle {
-  position: absolute;
-  top: -3rem;
-  left: 43rem;
-  height: 9rem;
-  width: 9rem;
-  background-color: var(--accent);
-  border-radius: 50%;
-}
-
 .about {
-  width: 564px;
-  height: 108px;
-  left: 547px;
-  top: 586px;
+  width: 33vw;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -108,7 +109,7 @@ main {
 .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .icons i {
@@ -122,19 +123,50 @@ main {
 
 .line-wrapper {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .line {
   position: absolute;
   top: 1rem;
-  left: -3rem;
   line-height: 0.1rem;
   border-bottom: 0.1rem solid white;
-  width: 7rem;
+  width: 5rem;
 }
 
 .portfolio {
   position: relative;
   margin-top: 20rem;
   width: 50vw;
+}
+
+.gallery {
+  width: 100%;
+  height: 75vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  grid-row: 1/3;
+}
+
+.small {
+  display: grid;
+}
+
+.big-item-1 {
+  background: rgb(209, 206, 200);
+}
+
+.big-item-2 {
+  background: oldlace;
+}
+
+.small-item-1 {
+  background: rgb(146, 99, 13);
+}
+
+.small-item-2 {
+  background: rgb(170, 125, 42);
 }
