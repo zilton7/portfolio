@@ -1,0 +1,100 @@
+:root {
+    --accent: #3E5641;
+    --background: #1B1B1E;
+  }
+
+html {
+    font-size: 62.5%;
+  }
+  
+body {
+    margin: 0;
+    font-family: Gotham, Helvetica, "Times New Roman", Times, serif;
+    background-color: var(--background);
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.main {
+    width: 144rem;
+    height: 430rem;
+}
+
+.top {
+    position: absolute;
+    left: 54rem;
+    top: 32rem;
+}
+
+.number {
+    position: absolute;
+    width: 8rem;
+    height: 15rem;
+    left: -10rem;
+    top: -10rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10rem;
+    line-height: 15rem;
+    text-align: right;
+    color: #FFFFFF;
+    opacity: 0.2;
+}
+
+.name {
+    position: relative;
+    width: 48rem;
+    height: 22rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11rem;
+    line-height: 100%;
+        
+    color: #FFFFFF;
+    
+}
+
+.about {
+    width: 564px;
+    height: 108px;
+    left: 547px;
+    top: 586px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.icons i {
+    font-size: 2.4rem;
+    margin-right: 2rem;
+}
+
+.accent-text {
+    color: var(--accent);
+
+}
+
+.line-wrapper {
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    top: 1rem;
+    left: -3rem;
+    line-height: 0.1rem;
+    border-bottom: 0.1rem solid white;
+    width: 7rem;
+}
