@@ -92,7 +92,7 @@ main {
   color: #ffffff;
 }
 
-.about {
+.description {
   width: 33vw;
   font-family: Poppins;
   font-style: normal;
@@ -230,4 +230,44 @@ main {
   height: 5rem;
   color: white;
   background: var(--accent);
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.about {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about .number {
+  width: 8rem;
+  height: 15rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10rem;
+  line-height: 15rem;
+  text-align: right;
+  color: #ffffff;
+  opacity: 0.2;
+}
+
+.about .name {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11rem;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
 }
