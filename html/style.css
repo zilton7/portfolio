@@ -170,7 +170,8 @@ main {
 
 .project-2 {
   width: 100%;
-  background-color: rgb(23, 54, 63);
+  background-color: #17363f;
+  padding: 5rem;
 }
 
 .project-3 {
@@ -191,4 +192,20 @@ main {
 .project-6 {
   width: 100%;
   background-color: rgb(63, 59, 23);
+}
+
+.big-project-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6rem;
+  line-height: 80%;
+  color: #ffffff;
+}
+
+.tag {
+  background: black;
+  opacity: 0.5;
+  padding: 1rem;
+  margin-left: 2rem;
 }
