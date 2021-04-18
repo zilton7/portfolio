@@ -163,32 +163,32 @@ main {
   grid-row: span 2 / auto;
 }
 
-.item-1 {
+.project-1 {
   width: 100%;
   background-color: rgb(61, 61, 61);
 }
 
-.item-2 {
+.project-2 {
+  width: 100%;
+  background-color: rgb(23, 54, 63);
+}
+
+.project-3 {
+  width: 100%;
+  background-color: rgb(160, 57, 57);
+}
+
+.project-4 {
+  width: 100%;
+  background-color: rgb(80, 14, 100);
+}
+
+.project-5 {
+  width: 100%;
+  background-color: rgb(86, 119, 10);
+}
+
+.project-6 {
   width: 100%;
   background-color: rgb(63, 59, 23);
-}
-
-.item-3 {
-  width: 100%;
-  background-color: rgb(161, 41, 41);
-}
-
-.item-4 {
-  width: 100%;
-  background-color: rgb(45, 75, 12);
-}
-
-.item-5 {
-  width: 100%;
-  background-color: rgb(52, 40, 161);
-}
-
-.item-6 {
-  width: 100%;
-  background-color: rgb(163, 25, 60);
 }
