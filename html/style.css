@@ -40,9 +40,6 @@ main {
 }
 
 .content {
-  /* position: absolute;
-  left: 54rem;
-  top: 32rem; */
   width: 100vw;
   height: 70vh;
   display: flex;
@@ -71,8 +68,7 @@ main {
   opacity: 0.2;
 }
 
-.name-wrapper {
-  width: 33vw;
+.top-name-wrapper {
   position: relative;
   /* border: 0.1rem solid white; */
 }
@@ -137,9 +133,20 @@ main {
 }
 
 .portfolio {
-  position: relative;
   margin-top: 20rem;
-  width: 50vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-name-wrapper {
+  position: relative;
+  width: 70%;
+}
+
+.gallery-wrapper {
+  width: 100%;
 }
 
 .gallery {
