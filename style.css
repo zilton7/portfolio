@@ -382,3 +382,14 @@ main {
 .fa-external-link-alt {
   margin-left: 1.5rem;
 }
+
+.skill-list {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: -0.0525em;
+
+  color: #7d7c84;
+}
