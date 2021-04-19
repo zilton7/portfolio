@@ -374,3 +374,11 @@ main {
   line-height: 2.7rem;
   color: #ffffff;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.fa-external-link-alt {
+  margin-left: 1.5rem;
+}
