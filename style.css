@@ -74,6 +74,126 @@ main {
   font-size: 3rem;
 }
 
+.portfolio {
+  margin-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-name-wrapper {
+  width: 100%;
+}
+
+.gallery-wrapper {
+  width: 100%;
+}
+
+.gallery {
+  height: 100%;
+}
+
+.project-1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(61, 61, 61);
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project-2 {
+  width: 100%;
+  background-color: #17363f;
+  display: flex;
+  flex-direction: column;
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/online-shop-screenshot.png");
+  background-position: center;
+  background-position-y: top;
+  background-size: cover;
+}
+
+.project-3 {
+  width: 100%;
+  background-color: rgb(160, 57, 57);
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project-4 {
+  width: 100%;
+  height: 100%;
+  background-color: #17363f;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/launchzilla-screenshot.png");
+  background-position: center;
+  background-position-y: top;
+  background-size: cover;
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project-5 {
+  width: 100%;
+  background-color: rgb(86, 119, 10);
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project-6 {
+  width: 100%;
+  background-color: rgb(63, 59, 23);
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.tag {
+  font-size: 1.2rem;
+  background: black;
+  opacity: 0.7;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.project-button {
+  width: 21rem;
+  height: 5rem;
+  color: white;
+  background: var(--accent);
+  border: none;
+  outline: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body {
