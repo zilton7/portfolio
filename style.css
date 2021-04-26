@@ -333,6 +333,97 @@ main {
   color: #7d7c84;
 }
 
+.contact {
+  margin-top: 10rem;
+}
+
+.contact-description {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.contact-form {
+  margin-top: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-group,
+.email-group {
+  background: #101010;
+  height: 7rem;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.name-group:hover,
+.email-group:hover,
+textarea:hover {
+  outline: solid 0.3rem var(--accent);
+}
+
+label {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #7d7c84;
+}
+
+input,
+textarea {
+  width: 100%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+  background: #101010;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  border: none;
+}
+
+textarea {
+  padding: 2rem;
+  height: 20rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: solid 0.3rem var(--accent);
+}
+
+input[type="submit"] {
+  height: 5rem;
+  background: var(--accent);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.bottom-links {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
   body {
@@ -432,6 +523,10 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+  }
+
+  .icons {
+    display: flex;
   }
 
   .icons i {
@@ -804,6 +899,7 @@ main {
     margin-top: 10rem;
     margin-bottom: 10rem;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: 80vw;
   }
