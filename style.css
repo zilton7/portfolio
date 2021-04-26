@@ -25,7 +25,7 @@ body {
 }
 
 main {
-  margin: 2rem;
+  /* margin: 0 2rem; */
 }
 
 .section {
@@ -37,6 +37,7 @@ main {
   font-size: 5rem;
   line-height: 7.5rem;
   opacity: 0.2;
+  margin: 0 2rem;
 }
 
 .title {
@@ -44,13 +45,16 @@ main {
   font-style: normal;
   font-weight: normal;
   font-size: 5rem;
+  margin: 0 2rem;
 }
 
 .paragraph {
+  margin: 0 2rem;
   margin-bottom: 5rem;
 }
 
 .social-links-title {
+  margin: 0 2rem;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -62,9 +66,63 @@ main {
 .icons {
   display: flex;
   justify-content: space-between;
+  margin: 0 2rem;
 }
 
 .icons i {
   font-size: 3rem;
   color: #ffffff;
+}
+
+.project {
+  height: 19rem;
+  padding: 10rem;
+}
+
+.project-1 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/online-shop-screenshot.png");
+  background-position: center;
+  background-position-y: top;
+  background-size: cover;
+  background-color: #17363f;
+  display: flex;
+  flex-direction: column;
+  height: 19rem;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 80%;
+  color: #ffffff;
+  padding-bottom: 2rem;
+}
+
+.project-tags {
+}
+
+.tag {
+  font-size: 1.2rem;
+  background: black;
+  opacity: 0.7;
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+.project-button {
+  width: 21rem;
+  height: 5rem;
+  color: white;
+  background: var(--accent);
+  border: none;
+  outline: none;
+  font-weight: 400;
 }
