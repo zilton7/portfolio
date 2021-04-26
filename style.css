@@ -1,0 +1,70 @@
+:root {
+  --accent: #3e5641;
+  --background: #1b1b1e;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Poppins, Helvetica, "Times New Roman", Times, serif;
+  background-color: var(--background);
+  color: white;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: normal;
+}
+
+main {
+  margin: 2rem;
+}
+
+.section {
+  margin-bottom: 5rem;
+}
+
+.number {
+  font-weight: 200;
+  font-size: 5rem;
+  line-height: 7.5rem;
+  opacity: 0.2;
+}
+
+.title {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 5rem;
+}
+
+.paragraph {
+  margin-bottom: 5rem;
+}
+
+.social-links-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: var(--accent);
+  margin-bottom: 3rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons i {
+  font-size: 3rem;
+  color: #ffffff;
+}
