@@ -14,11 +14,38 @@
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #1b1b1e;
+  padding: 2rem;
+  border: 0.1rem solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+  height: 100%;
+}
+
+.modal-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 80%;
+  height: 4rem;
+}
+
+.modal-image {
+  width: 100%;
+}
+
+.modal-image img {
+  width: 100%;
+}
+
+.modal-description {
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.modal-link-wrapper {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* The Close Button */
