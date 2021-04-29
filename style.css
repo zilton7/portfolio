@@ -182,20 +182,20 @@ main {
   cursor: pointer;
 }
 
-.resume-link {
+.link-with-icon {
   display: flex;
   justify-content: center;
   margin-bottom: 5rem;
 }
 
-.resume-link a {
+.link-with-icon a {
   color: var(--accent);
   font-weight: 400;
   font-size: 1.5rem;
   text-decoration: none;
 }
 
-.resume-link a i {
+.link-with-icon a i {
   margin-left: 1rem;
 }
 

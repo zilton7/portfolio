@@ -30,8 +30,13 @@
   height: 4rem;
 }
 
+.modal-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .modal-image {
-  width: 100%;
+  width: 50rem;
 }
 
 .modal-image img {
