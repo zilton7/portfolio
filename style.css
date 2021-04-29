@@ -63,6 +63,10 @@ main {
   margin-bottom: 1rem;
 }
 
+.social-links {
+  margin-bottom: 3rem;
+}
+
 .icons {
   display: flex;
   justify-content: space-between;
