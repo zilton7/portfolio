@@ -13,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal-style.css">
     <title>Zil Norvilis' Portfolio</title>
 </head>
 
@@ -119,7 +120,7 @@
                                 <span class="tag">Bootstrap</span>
                             </div>
                         </div>
-                        <button class="project-button">
+                        <button class="project-button" onclick="launchModal();">
                             See this project &rarr;
                         </button>
                     </div>
@@ -233,7 +234,23 @@
                 <a href="https://medium.com/@zilasino27" target="_blank"><i class="fab fa-medium"></i></a>
             </div>
         </div>
+
+        <!-- PROJECT MODAL -->
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Open Modal</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Some text in the Modal..</p>
+            </div>
+
+        </div>
     </main>
+    <script src="/script.js"></script>
 </body>
 
 </html>

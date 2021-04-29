@@ -177,6 +177,10 @@ main {
   font-weight: 400;
 }
 
+.project-button:hover {
+  cursor: pointer;
+}
+
 .resume-link {
   display: flex;
   justify-content: center;
