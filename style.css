@@ -81,15 +81,6 @@ main {
 .project {
   height: 19rem;
   padding: 10rem;
-}
-
-.project-1 {
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 1),
-      rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 1)
-    ),
-    url("./assets/online-shop-screenshot.png");
   background-position: center;
   background-position-y: top;
   background-size: cover;
@@ -100,6 +91,61 @@ main {
   padding: 1rem;
   justify-content: space-between;
   align-items: start;
+  margin-bottom: 1rem;
+}
+
+.project-1 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/grouping-app-screenshot.png");
+}
+
+.project-2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/online-shop-screenshot.png");
+}
+
+.project-3 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/launchzilla-screenshot.png");
+}
+
+.project-4 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/telegram-bot-screenshot.png");
+}
+
+.project-5 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/nyt-clone-screenshot.png");
+}
+
+.project-6 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/newsweek-clone-screenshot.png");
 }
 
 .project-title {
