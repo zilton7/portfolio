@@ -468,6 +468,11 @@ input[type="submit"] {
   justify-content: space-between;
 }
 
+.email {
+  font-weight: 900;
+  text-decoration: underline;
+}
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 767px) {
   .tag {

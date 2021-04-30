@@ -62,6 +62,12 @@ function assignLinks(live_link, source_link){
   });
 }
 
+function sendEmail(){
+  let subject = 'Portfolio Contact Form Email from ' + document.getElementById('name').value + ' (email: ' + document.getElementById('email').value + ')';
+  let body = document.getElementById('body').value;
+  window.open('mailto:zil.norvilis@gmail.com' + '?subject=' + subject + '&body=' + body, 'Sending email', "width = 200, height = 200");
+}
+
 
 let project_data = { 
   1: {

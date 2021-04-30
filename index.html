@@ -216,7 +216,9 @@
                 <div class="number">04</div>
                 <h3 class="title">Contact</h3>
                 <p class="paragraph">If you have any questions or propositions, please don't hesitate to get in
-                    touch.
+                    touch. You can email me at <span class="email">zil.norvilis(at)gmail.com</span> or just use
+                    contact form
+                    bellow.
                 </p>
                 <div class="contact-form">
                     <form action="#">
@@ -228,8 +230,8 @@
                             <label for="email">Your email</label><br />
                             <input type="email" id="email" required>
                         </div>
-                        <textarea placeholder="Enter your message here..." required></textarea>
-                        <input type="submit" value="Start collaboration">
+                        <textarea id="body" placeholder="Enter your message here..." required></textarea>
+                        <input type="submit" value="Start collaboration" onclick="sendEmail();">
                     </form>
                 </div>
             </div>
