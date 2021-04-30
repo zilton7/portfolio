@@ -66,7 +66,7 @@ function assignLinks(live_link, source_link){
 let project_data = { 
   1: {
     title: 'Gift Grouping App',
-    tags: ['Ruby on Rails', 'PostgreSQL', 'HTML/CSS', 'Bootstrap'],
+    tags: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
     image: 'grouping-app-screenshot.png',
     description: 'Gift Grouping is a mobile-only app where you can sign up (and/or sign in), create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
     live_link: 'https://grouping-app.herokuapp.com/',
