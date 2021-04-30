@@ -153,7 +153,7 @@ main {
   font-weight: 400;
   line-height: 80%;
   color: #ffffff;
-  padding: 2rem 0;
+  padding: 0 1rem;
 }
 
 .project-tags {
@@ -170,13 +170,14 @@ main {
 }
 
 .project-button {
-  width: 21rem;
+  width: 20rem;
   height: 5rem;
   color: white;
   background: var(--accent);
   border: none;
   outline: none;
   font-weight: 400;
+  margin-left: 1rem;
 }
 
 .project-button:hover {
@@ -384,9 +385,16 @@ input[type="submit"] {
   justify-content: space-between;
 }
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  body {
-    /* background: red; */
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+  .tag {
+    font-size: 1.8rem;
+  }
+  .project-title {
+    font-size: 3rem;
+  }
+  .project-button {
+    font-size: 2rem;
+    width: 25rem;
   }
 }

@@ -71,3 +71,20 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+  .modal-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4rem;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 3.8rem;
+    font-weight: bold;
+  }
+}
