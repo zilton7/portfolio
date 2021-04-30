@@ -65,14 +65,6 @@ function assignLinks(live_link, source_link){
 
 let project_data = { 
   1: {
-    title: 'Gift Grouping App',
-    tags: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    image: 'grouping-app-screenshot.png',
-    description: 'Gift Grouping is a mobile-only app where you can sign up (and/or sign in), create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
-    live_link: 'https://grouping-app.herokuapp.com/',
-    source_link: 'https://github.com/zilton7/grouping-app'
-  },
-  2: {
     title: 'Online Book Store Design',
     tags: ['HTML/CSS', 'Bootstrap'],
     image: 'online-shop-screenshot.png',
@@ -80,6 +72,14 @@ let project_data = {
     live_link: 'https://zilton7.github.io/online-shop/',
     source_link: 'https://github.com/zilton7/online-shop'
     },
+  2: {
+    title: 'Gift Grouping App',
+    tags: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
+    image: 'grouping-app-screenshot.png',
+    description: 'Gift Grouping is a mobile-only app where you can sign up (and/or sign in), create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
+    live_link: 'https://grouping-app.herokuapp.com/',
+    source_link: 'https://github.com/zilton7/grouping-app'
+  },
   3: {
     title: 'Complete CRUD Application',
     tags: ['Ruby on Rails', 'PostgreSQL', 'HTML/CSS' ],

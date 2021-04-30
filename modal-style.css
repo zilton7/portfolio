@@ -87,4 +87,23 @@
     font-size: 3.8rem;
     font-weight: bold;
   }
+
+  .modal-image {
+    width: 70rem;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    margin: 3.5% auto; /* 15% from the top and centered */
+    background-color: #1b1b1e;
+    padding: 2rem;
+    border: 0.1rem solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+    height: 90%;
+    overflow: auto; /* Enable scroll if needed */
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
 }
