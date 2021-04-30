@@ -262,6 +262,8 @@ main {
 
 .project-button:hover {
   cursor: pointer;
+  scale: 0.99;
+  opacity: 0.8;
 }
 
 .link-with-icon {
