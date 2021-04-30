@@ -63,13 +63,14 @@ function assignLinks(live_link, source_link){
 }
 
 
-let project_data = { 1: {
-  title: 'Gift Grouping App',
-  tags: ['HTML/CSS', 'Bootstrap'],
-  image: 'grouping-app-screenshot.png',
-  description: 'Gift Grouping is a mobile-only app where you can sign up (and/or sign in), create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
-  live_link: 'https://grouping-app.herokuapp.com/',
-  source_link: 'https://github.com/zilton7/grouping-app'
+let project_data = { 
+  1: {
+    title: 'Gift Grouping App',
+    tags: ['Ruby on Rails', 'PostgreSQL', 'HTML/CSS', 'Bootstrap'],
+    image: 'grouping-app-screenshot.png',
+    description: 'Gift Grouping is a mobile-only app where you can sign up (and/or sign in), create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
+    live_link: 'https://grouping-app.herokuapp.com/',
+    source_link: 'https://github.com/zilton7/grouping-app'
   },
   2: {
     title: 'Online Book Store Design',
@@ -78,5 +79,37 @@ let project_data = { 1: {
     description: 'Online shop design built with Bootstrap and custom HTML/CSS',
     live_link: 'https://zilton7.github.io/online-shop/',
     source_link: 'https://github.com/zilton7/online-shop'
+    },
+  3: {
+    title: 'Complete CRUD Application',
+    tags: ['Ruby on Rails', 'PostgreSQL', 'HTML/CSS' ],
+    image: 'launchzilla-screenshot.png',
+    description: 'Complete CRUD application, that allows users to sign in/sign up and create/edit/delete announcements on the page. Add images to their announcement. View announcements by categories, authors and networks',
+    live_link: 'http://launchzilla.herokuapp.com/',
+    source_link: ''
+    },
+  4: {
+    title: 'Telegram Birthday Bot',
+    tags: ['Ruby', 'Telegram API'],
+    image: 'telegram-bot-screenshot.png',
+    description: "For this project I have used couple gems and hiztory.org API. The Bot waits for user's birth-date input and than checks if its valid date and if so it fetches the data from the external API. This data consists of famous people born on the same month/day. All this information is returned to the user as a Telegram message.",
+    live_link: '',
+    source_link: 'https://github.com/zilton7/telegram-bot'
+    },
+  5: {
+    title: 'New York Times Clone Design',
+    tags: ['HTML/CSS'],
+    image: 'nyt-clone-screenshot.png',
+    description: 'A clone of New York Times page design, using nothing but pure CSS.',
+    live_link: 'https://zilton7.github.io/nyt-copy/',
+    source_link: 'https://github.com/zilton7/nyt-copy'
+    },
+  6: {
+    title: 'Newsweek Clone Design',
+    tags: ['HTML/CSS', 'Bootstrap'],
+    image: 'newsweek-clone-screenshot.png',
+    description: 'Page design clone of the archived version of Newsweek Magazine of 2021/01/20, using Bootstrap and CSS',
+    live_link: 'https://zilton7.github.io/newsweek-copy/',
+    source_link: 'https://github.com/zilton7/newsweek-copy'
     }
 }
