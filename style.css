@@ -480,3 +480,52 @@ input[type="submit"] {
     width: 25rem;
   }
 }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .title {
+    font-size: 11rem;
+    line-height: 85%;
+    margin-bottom: 2rem;
+  }
+
+  .social-links {
+    text-align: center;
+  }
+
+  .social-links-title {
+    font-size: 2.2rem;
+  }
+
+  .icons i {
+    font-size: 4rem;
+  }
+
+  .intro {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10rem;
+  }
+
+  .content-intro {
+    width: 40%;
+  }
+
+  .number-intro {
+    position: absolute;
+    left: 30rem;
+    top: -10rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10rem;
+    line-height: 15rem;
+    text-align: right;
+    color: #ffffff;
+    opacity: 0.2;
+  }
+}
