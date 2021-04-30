@@ -391,6 +391,7 @@ main {
   color: #7d7c84;
   padding-left: 1.5rem;
 }
+
 .contact-form {
   margin: 0 2rem;
   margin-top: 4rem;
@@ -472,12 +473,30 @@ input[type="submit"] {
   .tag {
     font-size: 1.8rem;
   }
+
   .project-title {
     font-size: 3rem;
   }
+
   .project-button {
     font-size: 2rem;
     width: 25rem;
+  }
+
+  .squares-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .squares {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-right: 3rem;
+  }
+
+  .square {
+    margin: 0;
   }
 }
 
@@ -502,7 +521,9 @@ input[type="submit"] {
   }
 
   .intro,
-  .portfolio {
+  .portfolio,
+  .about,
+  .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -575,5 +596,46 @@ input[type="submit"] {
 
   .span-row-2 {
     grid-row: span 2 / auto;
+  }
+
+  .square {
+    margin: 0;
+    width: 40rem;
+    height: 40rem;
+    padding: 5rem 0 0 5rem;
+  }
+
+  .square-icon {
+    padding: 3rem;
+  }
+
+  .square-title {
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  .square-icon i,
+  .square-title {
+    font-size: 3rem;
+  }
+
+  .skill-list {
+    font-size: 2.4rem;
+    line-height: 120%;
+    font-family: Poppins;
+    font-weight: normal;
+  }
+
+  .about-wrapper {
+    width: 70%;
+  }
+
+  .contact-wrapper {
+    width: 40%;
+  }
+
+  .social-links-bottom {
+    margin: 5rem auto;
+    width: 50%;
   }
 }
