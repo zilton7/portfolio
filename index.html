@@ -18,115 +18,124 @@
 </head>
 
 <body>
+    <nav id="navbar">
+        <!-- the navbar -->
+        <label for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger" />
+
+        <!-- menu items -->
+        <div id="navbar-items">
+            <a href="#intro">Intro</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
     <main>
-        <div class="section intro">
-            <div class="intro-content">
-                <div class="number">01</div>
-                <h3 class="title">Zil Norvilis</h3>
-                <p class="paragraph">
-                    Hello! I am Full-Stack Developer with a love for Ruby on Rails, React and Redux. I can
-                    build a product, feature or website for you. I am remote work and pair-programming enthusiast.
-                    Take your time to look through some of my work and experience.
+        <div id="intro" class="section intro">
+            <div class="number">01</div>
+            <h3 class="title">Zil Norvilis</h3>
+            <p class="paragraph">
+                Hello! I am Full-Stack Developer with a love for Ruby on Rails, React and Redux. I can
+                build a product, feature or website for you. I am remote work and pair-programming enthusiast.
+                Take your time to look through some of my work and experience.
+            </p>
+            <div class="social-links">
+                <p class="social-links-title">
+                    Check out my work
                 </p>
-                <div class="social-links">
-                    <p class="social-links-title">
-                        Check out my work
-                    </p>
-                    <div class="icons">
-                        <a href="https://twitter.com/devnor7" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                        <a href="https://twitter.com/devnor7" target="_blank"><i class="fab fa-github-square"></i></a>
-                        <a href="https://www.linkedin.com/in/zil-norvilis/" target="_blank"><i
-                                class="fab fa-linkedin"></i></a>
-                        <a href="https://stackoverflow.com/users/9882101/zilton-7" target="_blank"><i
-                                class="fab fa-stack-overflow"></i></a>
-                        <a href="https://angel.co/u/zil-n" target="_blank"><i class="fab fa-angellist"></i></a>
-                        <a href="https://medium.com/@zilasino27" target="_blank"><i class="fab fa-medium"></i></a>
-                    </div>
+                <div class="icons">
+                    <a href="https://twitter.com/devnor7" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://twitter.com/devnor7" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/zil-norvilis/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a>
+                    <a href="https://stackoverflow.com/users/9882101/zilton-7" target="_blank"><i
+                            class="fab fa-stack-overflow"></i></a>
+                    <a href="https://angel.co/u/zil-n" target="_blank"><i class="fab fa-angellist"></i></a>
+                    <a href="https://medium.com/@zilasino27" target="_blank"><i class="fab fa-medium"></i></a>
                 </div>
             </div>
         </div>
-        <div class="section portfolio">
-            <div class="intro-content">
-                <div class="number">02</div>
-                <h3 class="title">Portfolio</h3>
-                <div class="projects">
-                    <div class="project project-1">
-                        <div class="project-title-wrapper">
-                            <p class="project-title">Gift Grouping App</p>
-                            <div class="project-tags">
-                                <span class="tag">Ruby on Rails</span>
-                                <span class="tag">PostgreSQL</span>
-                                <span class="tag">Bootstrap</span>
-                            </div>
+        <div id="portfolio" class="section portfolio">
+            <div class="number">02</div>
+            <h3 class="title">Portfolio</h3>
+            <div class="projects">
+                <div class="project project-1">
+                    <div class="project-title-wrapper">
+                        <p class="project-title">Gift Grouping App</p>
+                        <div class="project-tags">
+                            <span class="tag">Ruby on Rails</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Bootstrap</span>
                         </div>
-                        <button class="project-button" onclick="launchModal(1);">
-                            See this project &rarr;
-                        </button>
                     </div>
-                    <div class="project project-2">
-                        <div class="project-title-wrapper">
-                            <p class="project-title">Online Book Store Design</p>
-                            <div class="project-tags">
-                                <span class="tag">HTML/CSS</span>
-                                <span class="tag">Bootstrap</span>
-                            </div>
+                    <button class="project-button" onclick="launchModal(1);">
+                        See this project &rarr;
+                    </button>
+                </div>
+                <div class="project project-2">
+                    <div class="project-title-wrapper">
+                        <p class="project-title">Online Book Store Design</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Bootstrap</span>
                         </div>
-                        <button class="project-button" onclick="launchModal(2);">
-                            See this project &rarr;
-                        </button>
                     </div>
-                    <div class="project project-3">
-                        <div class="project-title-wrapper">
-                            <p class="project-title">Complete CRUD Application</p>
-                            <div class="project-tags">
-                                <span class="tag">Ruby on Rails</span>
-                                <span class="tag">PostgreSQL</span>
-                                <span class="tag">HTML/CSS</span>
-                            </div>
+                    <button class="project-button" onclick="launchModal(2);">
+                        See this project &rarr;
+                    </button>
+                </div>
+                <div class="project project-3">
+                    <div class="project-title-wrapper">
+                        <p class="project-title">Complete CRUD Application</p>
+                        <div class="project-tags">
+                            <span class="tag">Ruby on Rails</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">HTML/CSS</span>
                         </div>
-                        <button class="project-button" onclick="launchModal(3);">
-                            See this project &rarr;
-                        </button>
                     </div>
-                    <div class="project project-4">
-                        <div class="project-title-wrapper">
-                            <p class="project-title">Telegram Birthday Bot</p>
-                            <div class="project-tags">
-                                <span class="tag">Ruby</span>
-                                <span class="tag">Telegram API</span>
-                            </div>
+                    <button class="project-button" onclick="launchModal(3);">
+                        See this project &rarr;
+                    </button>
+                </div>
+                <div class="project project-4">
+                    <div class="project-title-wrapper">
+                        <p class="project-title">Telegram Birthday Bot</p>
+                        <div class="project-tags">
+                            <span class="tag">Ruby</span>
+                            <span class="tag">Telegram API</span>
                         </div>
-                        <button class="project-button" onclick="launchModal(4);">
-                            See this project &rarr;
-                        </button>
                     </div>
-                    <div class="project project-5">
-                        <div class="project-title-wrapper">
-                            <p class="project-title">New York Times Clone Design</p>
-                            <div class="project-tags">
-                                <span class="tag">HTML/CSS</span>
-                            </div>
+                    <button class="project-button" onclick="launchModal(4);">
+                        See this project &rarr;
+                    </button>
+                </div>
+                <div class="project project-5">
+                    <div class="project-title-wrapper">
+                        <p class="project-title">New York Times Clone Design</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
                         </div>
-                        <button class="project-button" onclick="launchModal(5);">
-                            See this project &rarr;
-                        </button>
                     </div>
-                    <div class="project project-6">
-                        <div class="project-title-wrapper">
-                            <p class="project-title">Newsweek Clone Design</p>
-                            <div class="project-tags">
-                                <span class="tag">HTML/CSS</span>
-                                <span class="tag">Bootstrap</span>
-                            </div>
+                    <button class="project-button" onclick="launchModal(5);">
+                        See this project &rarr;
+                    </button>
+                </div>
+                <div class="project project-6">
+                    <div class="project-title-wrapper">
+                        <p class="project-title">Newsweek Clone Design</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML/CSS</span>
+                            <span class="tag">Bootstrap</span>
                         </div>
-                        <button class="project-button" onclick="launchModal(6);">
-                            See this project &rarr;
-                        </button>
                     </div>
+                    <button class="project-button" onclick="launchModal(6);">
+                        See this project &rarr;
+                    </button>
                 </div>
             </div>
         </div>
-        <div class="section about">
+        <div id="about" class="section about">
             <div class="number">03</div>
             <h3 class="title">About me</h3>
             <p class="paragraph">
@@ -194,7 +203,7 @@
                 </div>
             </div>
         </div>
-        <div class="section contact">
+        <div id="contact" class="section contact">
             <div class="number">04</div>
             <h3 class="title">Contact</h3>
             <p class="paragraph">If you have any questions or propositions, please don't hesitate to get in
@@ -236,7 +245,7 @@
 
         <!-- PROJECT MODAL -->
         <!-- The Modal -->
-        <div id="myModal" class="modal">
+        <div id="project-modal" class="modal">
             <!-- Modal content -->
             <div class="modal-content">
                 <div class="modal-head">
