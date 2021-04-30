@@ -501,7 +501,8 @@ input[type="submit"] {
     font-size: 4rem;
   }
 
-  .intro {
+  .intro,
+  .portfolio {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -515,17 +516,25 @@ input[type="submit"] {
     width: 40%;
   }
 
+  .number {
+    font-size: 10rem;
+  }
+
   .number-intro {
     position: absolute;
     left: -9rem;
     top: -11rem;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 200;
     font-size: 10rem;
-    line-height: 15rem;
-    text-align: right;
-    color: #ffffff;
-    opacity: 0.2;
+  }
+
+  .portfolio-title-wrapper {
+    position: relative;
+    width: 70%;
+  }
+
+  .number-portfolio {
+    position: absolute;
+    left: -11rem;
+    top: -11rem;
   }
 }
