@@ -232,7 +232,7 @@ main {
 .project-title {
   font-size: 2rem;
   font-weight: 400;
-  line-height: 80%;
+  line-height: 100%;
   color: #ffffff;
   padding: 0 1rem;
 }
@@ -536,5 +536,44 @@ input[type="submit"] {
     position: absolute;
     left: -11rem;
     top: -11rem;
+  }
+
+  .project {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tag {
+    font-size: 1.5rem;
+  }
+
+  .project-2 .project-title,
+  .project-4 .project-title {
+    font-size: 4rem;
+  }
+
+  .project-2 .tag,
+  .project-4 .tag {
+    font-size: 2rem;
+  }
+
+  .project-2 button,
+  .project-4 button {
+    font-size: 2.4rem;
+  }
+
+  .projects {
+    height: 100%;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .span-col-2 {
+    grid-column: span 2 / auto;
+  }
+
+  .span-row-2 {
+    grid-row: span 2 / auto;
   }
 }
