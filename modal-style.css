@@ -19,6 +19,7 @@
   border: 0.1rem solid #888;
   width: 100%; /* Could be more or less, depending on screen size */
   height: 100%;
+  overflow: auto; /* Enable scroll if needed */
 }
 
 .modal-title {

@@ -382,3 +382,10 @@ input[type="submit"] {
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  body {
+    /* background: red; */
+  }
+}
