@@ -389,7 +389,7 @@ main {
   font-size: 1.4rem;
   line-height: 2rem;
   letter-spacing: -0.0525em;
-  color: rgb(125, 124, 132);
+  color: #aaaaaa;
   padding-left: 1.5rem;
 }
 
@@ -423,7 +423,7 @@ label {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.8rem;
-  color: rgb(182, 182, 182);
+  color: #7d7c84;
 }
 
 input,
