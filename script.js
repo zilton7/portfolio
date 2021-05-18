@@ -115,7 +115,7 @@ let project_data = {
     tags: ["Ruby", "Telegram API"],
     image: "telegram-bot-screenshot.png",
     description:
-      "For this project I have used couple gems and hiztory.org API. The Bot waits for user's birth-date input and than checks if its valid date and if so it fetches the data from the external API. This data consists of famous people born on the same month/day. All this information is returned to the user as a Telegram message.",
+      "For this project I have used couple gems and hiztory.org API. The Bot waits for user's birth date input and then checks if its valid date and if so it fetches the data from the external API. This data consists of famous people born on the same month/day. All this information is returned to the user as a Telegram message.",
     live_link: "",
     source_link: "https://github.com/zilton7/telegram-bot",
   },
