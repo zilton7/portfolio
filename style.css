@@ -230,6 +230,33 @@ main {
     url("./assets/newsweek-clone-screenshot.png");
 }
 
+.project-7 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/online-shop-screenshot.png");
+}
+
+.project-8 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/grouping-app-screenshot.png");
+}
+
+.project-9 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 1)
+    ),
+    url("./assets/launchzilla-screenshot.png");
+}
+
 .project-title {
   font-size: 2rem;
   font-weight: 400;
@@ -575,17 +602,20 @@ input[type="submit"] {
   }
 
   .project-2 .project-title,
-  .project-4 .project-title {
+  .project-4 .project-title,
+  .project-8 .project-title {
     font-size: 4rem;
   }
 
   .project-2 .tag,
-  .project-4 .tag {
+  .project-4 .tag,
+  .project-8 .tag {
     font-size: 2rem;
   }
 
   .project-2 button,
-  .project-4 button {
+  .project-4 button,
+  .project-8 button {
     font-size: 2.4rem;
   }
 
@@ -594,6 +624,7 @@ input[type="submit"] {
     display: grid;
     grid-gap: 1rem;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
   }
 
   .span-col-2 {
