@@ -72,6 +72,12 @@
   cursor: pointer;
 }
 
+#project-description {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 767px) {
   .modal-title {
