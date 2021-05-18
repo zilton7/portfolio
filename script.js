@@ -130,13 +130,13 @@ let project_data = {
     source_link: "https://github.com/zilton7/zilda-rpg",
   },
   6: {
-    title: "Newsweek Clone Design",
-    tags: ["HTML/CSS", "Bootstrap"],
-    image: "newsweek-clone-screenshot.png",
+    title: "Flagify Game",
+    tags: ["JavaScript", "HTML/CSS"],
+    image: "flagify-screenshot.png",
     description:
-      "Page design clone of the archived version of Newsweek Magazine of 2021/01/20, using Bootstrap and CSS",
-    live_link: "https://zilton7.github.io/zilda-rpg/",
-    source_link: "https://github.com/zilton7/zilda-rpg",
+      "Flagify is a simple vanilla JavaScript country flag guessing game, using firebase to store high scores.",
+    live_link: "https://zilton7.github.io/flagify/",
+    source_link: "https://github.com/zilton7/flagify",
   },
   7: {
     title: "Weather App",
