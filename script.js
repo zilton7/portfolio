@@ -147,4 +147,22 @@ let project_data = {
     live_link: "https://zilton7.github.io/weather-app/",
     source_link: "https://github.com/zilton7/weather-app",
   },
+  8: {
+    title: "Todo App",
+    tags: ["JavaScript", "Node", "HTML/CSS"],
+    image: "todo-app-screenshot.JPG",
+    description:
+      "Simple To-Do-List, using Node and Webpack functionality, In this project you have the ability to add projects, add tasks that you have to do to a project, including its description, date to be done, and priority.",
+    live_link: "https://aymanjabr.github.io/To-do-list-app/",
+    source_link: "https://github.com/zilton7/To-do-list-app",
+  },
+  9: {
+    title: "Todo App",
+    tags: ["JavaScript", "Node", "HTML/CSS"],
+    image: "todo-app-screenshot.JPG",
+    description:
+      "Simple To-Do-List, using Node and Webpack functionality, In this project you have the ability to add projects, add tasks that you have to do to a project, including its description, date to be done, and priority.",
+    live_link: "https://zilton7.github.io/restaurant-page/",
+    source_link: "https://github.com/zilton7/To-do-list-app",
+  },
 };
