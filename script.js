@@ -107,9 +107,8 @@ let project_data = {
     tags: ["Ruby on Rails", "PostgreSQL", "HTML/CSS"],
     image: "launchzilla-screenshot.png",
     description:
-      "Complete CRUD application, that allows users to sign in/sign up and create/edit/delete announcements on the page. Add images to their announcement. View announcements by categories, authors and networks",
+      "Complete CRUD application, that allows users to sign in/sign up and create/edit/delete announcements on the page. Add images to their announcement. View announcements by categories, authors and networks. No source links, since the project is PRIVATE.",
     live_link: "http://launchzilla.herokuapp.com/",
-    source_link: "",
   },
   4: {
     title: "Telegram Birthday Bot",
