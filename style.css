@@ -1,4 +1,5 @@
 :root {
+  /* --accent: #3e5641; */
   --accent: rgb(122, 134, 123);
   --background: #1b1b1e;
 }
@@ -388,7 +389,7 @@ main {
   font-size: 1.4rem;
   line-height: 2rem;
   letter-spacing: -0.0525em;
-  color: #7d7c84;
+  color: rgb(125, 124, 132);
   padding-left: 1.5rem;
 }
 
@@ -422,7 +423,7 @@ label {
   font-weight: normal;
   font-size: 1.5rem;
   line-height: 1.8rem;
-  color: #7d7c84;
+  color: rgb(125, 124, 132);
 }
 
 input,
