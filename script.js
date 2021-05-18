@@ -121,13 +121,13 @@ let project_data = {
     source_link: "https://github.com/zilton7/telegram-bot",
   },
   5: {
-    title: "New York Times Clone Design",
-    tags: ["HTML/CSS"],
-    image: "nyt-clone-screenshot.png",
+    title: "Zilda - RPG Game",
+    tags: ["JavaScript", "Phaser 3"],
+    image: "zilda-screenshot.png",
     description:
-      "A clone of New York Times page design, using nothing but pure CSS.",
-    live_link: "https://zilton7.github.io/nyt-copy/",
-    source_link: "https://github.com/zilton7/nyt-copy",
+      "In this project, I have built a RPG game using Phaser 3 Framework. This project's main goal was to learn completely new technology and implement a fully working game in 5 work days, using best JavaScript practices..",
+    live_link: "https://zilton7.github.io/zilda-rpg/",
+    source_link: "https://github.com/zilton7/zilda-rpg",
   },
   6: {
     title: "Newsweek Clone Design",
@@ -135,8 +135,8 @@ let project_data = {
     image: "newsweek-clone-screenshot.png",
     description:
       "Page design clone of the archived version of Newsweek Magazine of 2021/01/20, using Bootstrap and CSS",
-    live_link: "https://zilton7.github.io/newsweek-copy/",
-    source_link: "https://github.com/zilton7/newsweek-copy",
+    live_link: "https://zilton7.github.io/zilda-rpg/",
+    source_link: "https://github.com/zilton7/zilda-rpg",
   },
   7: {
     title: "Weather App",
@@ -157,11 +157,11 @@ let project_data = {
     source_link: "https://github.com/zilton7/To-do-list-app",
   },
   9: {
-    title: "Todo App",
-    tags: ["JavaScript", "Node", "HTML/CSS"],
-    image: "todo-app-screenshot.JPG",
+    title: "Restaurant Page",
+    tags: ["JavaScript", "Bootstrap", "HTML/CSS"],
+    image: "restaurant-app-screenshot.png",
     description:
-      "Simple To-Do-List, using Node and Webpack functionality, In this project you have the ability to add projects, add tasks that you have to do to a project, including its description, date to be done, and priority.",
+      "Here I built a very basic restaurant page using only JavaScript modules and webpack. All pages are generated using Javascript DOM manipulation and HTML Element creation.",
     live_link: "https://zilton7.github.io/restaurant-page/",
     source_link: "https://github.com/zilton7/To-do-list-app",
   },
