@@ -107,15 +107,16 @@ let project_data = {
     tags: ["Ruby on Rails", "PostgreSQL", "HTML/CSS"],
     image: "launchzilla-screenshot.png",
     description:
-      "Complete CRUD application that allows users to sign in/sign up and create/edit/delete announcements on the page. Add images to their announcement. View announcements by categories, authors and networks. No source links, since the project is PRIVATE.",
+      "Complete CRUD application that allows users to sign in/sign up and create/edit/delete announcements on the page, add images to their announcement, and view announcements by categories, authors, and networks.",
     live_link: "http://launchzilla.herokuapp.com/",
+    source_link: "",
   },
   4: {
     title: "Telegram Birthday Bot",
     tags: ["Ruby", "Telegram API"],
     image: "telegram-bot-screenshot.png",
     description:
-      "For this project I have used couple gems and hiztory.org API. The Bot waits for user's birthdate input and then checks if its valid date and if so it fetches the data from the external API. This data consists of famous people born on the same month/day. All this information is returned to the user as a Telegram message.",
+      "A bot that uses a couple of gems and the hiztory.org API to assess a user's birthday input and check if it's a valid date. If so, it fetches data from the external API. This data consists of famous people born on the same month/day. All this information is returned to the user as a Telegram message.",
     live_link: "",
     source_link: "https://github.com/zilton7/telegram-bot",
   },
@@ -124,7 +125,7 @@ let project_data = {
     tags: ["JavaScript", "Phaser 3"],
     image: "zilda-screenshot.png",
     description:
-      "In this project, I have built a RPG game using Phaser 3 Framework. This project's main goal was to learn completely new technology and implement a fully working game in 5 work days, using best JavaScript practices..",
+      "An RPG game built using the Phaser 3 Framework. This fully working game was built in five days using best JavaScript practices.",
     live_link: "https://zilton7.github.io/zilda-rpg/",
     source_link: "https://github.com/zilton7/zilda-rpg",
   },
@@ -133,7 +134,7 @@ let project_data = {
     tags: ["JavaScript", "HTML/CSS"],
     image: "flagify-screenshot.png",
     description:
-      "Flagify is a simple vanilla JavaScript country flag guessing game, using firebase to store high scores.",
+      "A simple vanilla JavaScript country flag guessing game that uses Firebase to store high scores.",
     live_link: "https://zilton7.github.io/flagify/",
     source_link: "https://github.com/zilton7/flagify",
   },
@@ -142,7 +143,7 @@ let project_data = {
     tags: ["JavaScript", "HTML/CSS"],
     image: "weather-app.png",
     description:
-      "I built a weather application, with basic styling, using JavaScript openweathermap.org and API. Visitor is able to input the name of the city and instantly get weather information for provided location.",
+      "A weather application with basic styling, built using JavaScript and the OpenWeatherMap.org's API. The visitor is able to input the name of the city and instantly get weather information for the provided location.",
     live_link: "https://zilton7.github.io/weather-app/",
     source_link: "https://github.com/zilton7/weather-app",
   },
@@ -151,7 +152,7 @@ let project_data = {
     tags: ["JavaScript", "Node", "HTML/CSS"],
     image: "todo-app-screenshot.JPG",
     description:
-      "Simple To-Do-List, using Node and Webpack functionality, In this project you have the ability to add projects, add tasks that you have to do to a project, including its description, date to be done, and priority.",
+      "A simple To-Do-List built using Node and webpack functionality. Users have the ability to add projects, add tasks to each project, and include project descriptions, due dates, and priority.",
     live_link: "https://aymanjabr.github.io/To-do-list-app/",
     source_link: "https://github.com/zilton7/To-do-list-app",
   },
@@ -160,7 +161,7 @@ let project_data = {
     tags: ["JavaScript", "Bootstrap", "HTML/CSS"],
     image: "restaurant-app-screenshot.png",
     description:
-      "Here I built a very basic restaurant page using only JavaScript modules and webpack. All pages are generated using Javascript DOM manipulation and HTML Element creation.",
+      "A very basic restaurant page built using only JavaScript modules and webpack. All pages are generated using Javascript DOM manipulation and HTML Element creation.",
     live_link: "https://zilton7.github.io/restaurant-page/",
     source_link: "https://github.com/zilton7/To-do-list-app",
   },
