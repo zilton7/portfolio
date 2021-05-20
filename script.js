@@ -89,7 +89,7 @@ let project_data = {
     title: "Online Book Store Design",
     tags: ["HTML/CSS", "Bootstrap"],
     image: "online-shop-screenshot.png",
-    description: "Online shop design built with Bootstrap and custom HTML/CSS",
+    description: "Online shop design built with Bootstrap and custom HTML/CSS.",
     live_link: "https://zilton7.github.io/online-shop/",
     source_link: "https://github.com/zilton7/online-shop",
   },
@@ -107,7 +107,7 @@ let project_data = {
     tags: ["Ruby on Rails", "PostgreSQL", "HTML/CSS"],
     image: "launchzilla-screenshot.png",
     description:
-      "Complete CRUD application, that allows users to sign in/sign up and create/edit/delete announcements on the page. Add images to their announcement. View announcements by categories, authors and networks. No source links, since the project is PRIVATE.",
+      "Complete CRUD application that allows users to sign in/sign up and create/edit/delete announcements on the page. Add images to their announcement. View announcements by categories, authors and networks. No source links, since the project is PRIVATE.",
     live_link: "http://launchzilla.herokuapp.com/",
   },
   4: {

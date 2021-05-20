@@ -141,13 +141,13 @@ main {
 }
 
 .social-links {
-  margin-bottom: 3rem;
+  margin: 3rem 0;
 }
 
 .icons {
   display: flex;
-  justify-content: space-between;
-  margin: 0 2rem;
+  justify-content: space-around;
+  margin: 0 3rem;
 }
 
 .icons i {
