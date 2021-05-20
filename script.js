@@ -98,7 +98,7 @@ let project_data = {
     tags: ["Ruby on Rails", "PostgreSQL", "Bootstrap"],
     image: "grouping-app-screenshot.png",
     description:
-      "Gift Grouping is a mobile-only app where you can sign up (and/or sign in), create groups and add gifts. View created groups created by all users and view only signed in user's added gifts.",
+      "Gift Grouping is a mobile-only app where you can sign up and/or sign in, create groups and add gifts. View created groups created by all users and view only signed in user's added gifts.",
     live_link: "https://grouping-app.herokuapp.com/",
     source_link: "https://github.com/zilton7/grouping-app",
   },
@@ -152,7 +152,7 @@ let project_data = {
     tags: ["JavaScript", "Node", "HTML/CSS"],
     image: "todo-app-screenshot.JPG",
     description:
-      "A simple To-Do-List built using Node and webpack functionality. Users have the ability to add projects, add tasks to each project, and include project descriptions, due dates, and priority.",
+      "A simple To-Do-List app built using Node and webpack. Users have the ability to add projects, add tasks to each project, and include project description, due date, and priority.",
     live_link: "https://aymanjabr.github.io/To-do-list-app/",
     source_link: "https://github.com/zilton7/To-do-list-app",
   },
@@ -161,7 +161,7 @@ let project_data = {
     tags: ["JavaScript", "Bootstrap", "HTML/CSS"],
     image: "restaurant-app-screenshot.png",
     description:
-      "A very basic restaurant page built using only JavaScript modules and webpack. All pages are generated using Javascript DOM manipulation and HTML Element creation.",
+      "A very basic restaurant page built using only JavaScript modules and webpack. All pages are generated using Javascript DOM manipulation and HTML Element creation methods.",
     live_link: "https://zilton7.github.io/restaurant-page/",
     source_link: "https://github.com/zilton7/To-do-list-app",
   },
