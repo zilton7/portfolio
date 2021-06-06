@@ -1,5 +1,5 @@
-# Personal Portfolio
-![screenshot](./app-screenshot.png)
+# Personal Portfolio Website
+![screenshot](./app_screenshot.png)
 
 This is my personal portfolio website. Built on HTML, CSS and JavaScript. This was built with responsiveness in mind.
 
