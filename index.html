@@ -264,17 +264,18 @@
                         bellow.
                     </p>
                     <div class="contact-form">
-                        <form action="#">
+                        <form action="https://formspree.io/f/xleabkkn" method="POST">
                             <div class="name-group">
                                 <label for="name">Your name</label><br />
-                                <input type="text" id="name" required>
+                                <input type="text" id="name" name="name" required>
                             </div>
                             <div class="email-group">
                                 <label for="email">Your email</label><br />
-                                <input type="email" id="email" required>
+                                <input type="email" name="_replyto" id="email" required>
                             </div>
-                            <textarea id="body" placeholder="Enter your message here..." required></textarea>
-                            <input type="submit" value="Start collaboration" onclick="sendEmail();">
+                            <textarea id="body" name="message" placeholder="Enter your message here..."
+                                required></textarea>
+                            <input type="submit" value="Send">
                         </form>
                     </div>
                 </div>
