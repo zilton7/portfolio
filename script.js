@@ -20,10 +20,28 @@ window.onclick = function (event) {
 
 function launchModal(project) {
   // When the user clicks on the button, open the modal
-  console.log(project_data[project].title);
+  current_project = project;
+
   setProjectData(project_data[project]);
   modal.style.display = "block";
 }
+
+// Next/Prev project functionality
+let current_project;
+const changeProject = (arrow) => {
+  resetProjectData();
+  if (arrow == "prev") {
+    console.log("prev");
+    current_project = current_project - 1;
+    setProjectData(project_data[current_project - 1]);
+  } else {
+    console.log("next");
+    current_project = current_project + 1;
+    setProjectData(project_data[current_project + 1]);
+  }
+};
+document.getElementById("arrow-prev").onclick = () => changeProject("prev");
+document.getElementById("arrow-next").onclick = () => changeProject("next");
 
 function setProjectData(data) {
   // Set project title
