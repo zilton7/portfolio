@@ -21,9 +21,10 @@ window.onclick = function (event) {
 function launchModal(project) {
   // When the user clicks on the button, open the modal
   current_project = project;
-
+  console.log(current_project);
   setProjectData(project_data[project]);
   modal.style.display = "block";
+  AddRemoveArrows();
 }
 
 // Next/Prev project functionality
@@ -31,17 +32,31 @@ let current_project;
 const changeProject = (arrow) => {
   resetProjectData();
   if (arrow == "prev") {
-    console.log("prev");
-    current_project = current_project - 1;
     setProjectData(project_data[current_project - 1]);
+    current_project = current_project - 1;
   } else {
-    console.log("next");
-    current_project = current_project + 1;
     setProjectData(project_data[current_project + 1]);
+    current_project = current_project + 1;
   }
+  AddRemoveArrows();
+  console.log(current_project);
 };
 document.getElementById("arrow-prev").onclick = () => changeProject("prev");
 document.getElementById("arrow-next").onclick = () => changeProject("next");
+
+function AddRemoveArrows() {
+  // Remove prev/next element for first or last project
+  if (current_project == 1) {
+    document.getElementById("arrow-prev").innerHTML = "";
+  } else {
+    document.getElementById("arrow-prev").innerHTML = "<--";
+  }
+  if (current_project == 9) {
+    document.getElementById("arrow-next").innerHTML = "";
+  } else {
+    document.getElementById("arrow-next").innerHTML = "-->";
+  }
+}
 
 function setProjectData(data) {
   // Set project title
