@@ -20,9 +20,42 @@ window.onclick = function (event) {
 
 function launchModal(project) {
   // When the user clicks on the button, open the modal
-  console.log(project_data[project].title);
+  current_project = project;
+  console.log(current_project);
   setProjectData(project_data[project]);
   modal.style.display = "block";
+  AddRemoveArrows();
+}
+
+// Next/Prev project functionality
+let current_project;
+const changeProject = (arrow) => {
+  resetProjectData();
+  if (arrow == "prev") {
+    setProjectData(project_data[current_project - 1]);
+    current_project = current_project - 1;
+  } else {
+    setProjectData(project_data[current_project + 1]);
+    current_project = current_project + 1;
+  }
+  AddRemoveArrows();
+  console.log(current_project);
+};
+document.getElementById("arrow-prev").onclick = () => changeProject("prev");
+document.getElementById("arrow-next").onclick = () => changeProject("next");
+
+function AddRemoveArrows() {
+  // Remove prev/next element for first or last project
+  if (current_project == 1) {
+    document.getElementById("arrow-prev").style.visibility = "hidden";
+  } else {
+    document.getElementById("arrow-prev").style.visibility = "visible";
+  }
+  if (current_project == 9) {
+    document.getElementById("arrow-next").style.visibility = "hidden";
+  } else {
+    document.getElementById("arrow-next").style.visibility = "visible";
+  }
 }
 
 function setProjectData(data) {
