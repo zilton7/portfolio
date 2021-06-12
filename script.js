@@ -47,14 +47,14 @@ document.getElementById("arrow-next").onclick = () => changeProject("next");
 function AddRemoveArrows() {
   // Remove prev/next element for first or last project
   if (current_project == 1) {
-    document.getElementById("arrow-prev").innerHTML = "";
+    document.getElementById("arrow-prev").style.visibility = "hidden";
   } else {
-    document.getElementById("arrow-prev").innerHTML = "<--";
+    document.getElementById("arrow-prev").style.visibility = "visible";
   }
   if (current_project == 9) {
-    document.getElementById("arrow-next").innerHTML = "";
+    document.getElementById("arrow-next").style.visibility = "hidden";
   } else {
-    document.getElementById("arrow-next").innerHTML = "-->";
+    document.getElementById("arrow-next").style.visibility = "visible";
   }
 }
 
