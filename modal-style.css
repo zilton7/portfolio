@@ -36,7 +36,16 @@
 
 .modal-image-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.arrow {
+  color: white;
+}
+
+.arrow:hover {
+  cursor: pointer;
 }
 
 .modal-image {
