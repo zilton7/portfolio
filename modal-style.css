@@ -46,6 +46,7 @@
 
 .arrow {
   color: white;
+  padding: 1rem;
 }
 
 .arrow:hover {
