@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
+  root to: 'home#index'
   devise_for :admins
-  root to: 'projects#index'
+  devise_scope :admin do
+    get '/admin', to: 'devise/sessions#new'
+  end
+
   resources :projects
 
   namespace :api do
