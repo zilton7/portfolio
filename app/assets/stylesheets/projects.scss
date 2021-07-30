@@ -1,3 +1,137 @@
 // Place all the styles related to the Projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.project {
+    height: 19rem;
+    padding: 10rem;
+    background-position: center;
+    background-position-y: top;
+    background-size: cover;
+    background-color: #17363f;
+    display: flex;
+    flex-direction: column;
+    height: 19rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 1rem;
+  }
+  
+  .project-1 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/online-shop-screenshot.png");
+  }
+  
+  .project-2 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/grouping-app-screenshot.png");
+  }
+  
+  .project-3 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/launchzilla-screenshot.png");
+  }
+  
+  .project-4 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/telegram-bot-screenshot.png");
+  }
+  
+  .project-5 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/zilda-screenshot.png");
+  }
+  
+  .project-6 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/flagify-screenshot.png");
+  }
+  
+  .project-7 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/weather-app.png");
+  }
+  
+  .project-8 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/todo-app-screenshot.JPG");
+  }
+  
+  .project-9 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/restaurant-app-screenshot.png");
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 100%;
+    color: #ffffff;
+    padding: 0 1rem;
+  }
+  
+  .project-tags {
+    margin: 2rem 0;
+  }
+  
+  .tag {
+    font-size: 1.2rem;
+    background: black;
+    opacity: 0.7;
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .project-button {
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    background: var(--accent);
+    border: none;
+    outline: none;
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+  
+  .project-button:hover {
+    cursor: pointer;
+    scale: 0.99;
+    opacity: 0.8;
+  }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Project from "./Project";
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -14,7 +15,8 @@ const App = () => {
   }, []);
 
   const list = projects.map((project) => {
-    return <li key={project.id}>{project.name}</li>;
+    console.log(project);
+    return <Project project={project} />;
   });
 
   return (
