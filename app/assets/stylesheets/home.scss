@@ -1,3 +1,13 @@
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+    font-family: Poppins, Helvetica, "Times New Roman", Times, serif;
+    background-color: var(--background);
+    color: white;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: normal;
+    height: 100%;
+  }
