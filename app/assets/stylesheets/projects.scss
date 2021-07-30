@@ -18,85 +18,21 @@
     margin-bottom: 1rem;
   }
   
-  .project-1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/online-shop-screenshot.png");
-  }
+.project-button {
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    background: var(--accent) !important;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    margin-left: 1rem;
+    }
   
-  .project-2 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/grouping-app-screenshot.png");
-  }
-  
-  .project-3 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/launchzilla-screenshot.png");
-  }
-  
-  .project-4 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/telegram-bot-screenshot.png");
-  }
-  
-  .project-5 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/zilda-screenshot.png");
-  }
-  
-  .project-6 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/flagify-screenshot.png");
-  }
-  
-  .project-7 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/weather-app.png");
-  }
-  
-  .project-8 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/todo-app-screenshot.JPG");
-  }
-  
-  .project-9 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/restaurant-app-screenshot.png");
+  .project-button:hover {
+    cursor: pointer;
+    scale: 0.99;
+    opacity: 0.8;
   }
   
   .project-title {
@@ -114,6 +50,7 @@
   .tag {
     font-size: 1.2rem;
     background: black;
+    color: white;
     opacity: 0.7;
     padding: 1rem;
     margin-left: 2rem;
@@ -135,3 +72,16 @@
     scale: 0.99;
     opacity: 0.8;
   }
+
+  .project-tags {
+    margin: 2rem 0;
+  }
+  
+  .tag {
+    font-size: 1.2rem;
+    background: black;
+    opacity: 0.7;
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+  

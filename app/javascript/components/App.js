@@ -16,7 +16,6 @@ const App = () => {
 
   return (
     <div>
-      Hello World!
       <ul>{<ProjectPanel projects={projects} />}</ul>
     </div>
   );
