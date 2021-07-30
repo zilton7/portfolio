@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :admins
+  root to: 'projects#index'
   resources :projects
 
   namespace :api do
