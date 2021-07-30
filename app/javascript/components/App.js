@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import Project from "./Project";
+import ProjectPanel from "./ProjectPanel";
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -14,15 +14,10 @@ const App = () => {
       .catch((response) => console.log(response));
   }, []);
 
-  const list = projects.map((project) => {
-    console.log(project);
-    return <Project project={project} />;
-  });
-
   return (
     <div>
       Hello World!
-      <ul>{list}</ul>
+      <ul>{<ProjectPanel projects={projects} />}</ul>
     </div>
   );
 };
