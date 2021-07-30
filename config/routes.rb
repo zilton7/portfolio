@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   root to: 'home#index'
-  devise_for :admins
+  devise_for :admins, :controllers => {:sessions => "sessions"}
+
   devise_scope :admin do
-    get '/admin', to: 'devise/sessions#new'
+    get '/admin', to: 'sessions#new'
   end
 
   resources :projects
