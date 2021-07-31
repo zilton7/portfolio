@@ -65,4 +65,14 @@
     padding: 1rem;
     margin-left: 2rem;
   }
+
+  @media (min-width: 767px) {
+    .project-button {
+      font-size: 2rem;
+      width: 25rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+  }
   
