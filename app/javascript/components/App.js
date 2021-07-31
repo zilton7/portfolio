@@ -15,8 +15,8 @@ const App = () => {
   }, []);
 
   return (
-    <div>
-      <ul>{<ProjectPanel projects={projects} />}</ul>
+    <div id="portfolio" className="section portfolio">
+      {<ProjectPanel projects={projects} />}
     </div>
   );
 };

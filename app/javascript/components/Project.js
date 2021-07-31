@@ -7,7 +7,11 @@ const Project = ({ project }) => {
 
   return (
     <div
-      className={`project project-${project.position}`}
+      className={`project ${
+        ["2", "4", "6"].includes(project.position)
+          ? "span-row-2  span-col-2"
+          : ""
+      }`}
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 1)), 
         url(${project.image})`,
