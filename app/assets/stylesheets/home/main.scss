@@ -1,0 +1,681 @@
+@import 'colors';
+
+:root {
+    /* --accent: #3e5641; */
+    --accent: #db4747;
+    --background: #1b1b1e;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: Poppins, Helvetica, "Times New Roman", Times, serif;
+    background-color: var(--background);
+    color: white;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: normal;
+    height: 100%;
+  }
+  
+  /* Start navbar */
+  
+  /* ON BIG SCREEN */
+  /* Wrapper */
+  #navbar {
+    width: 100%;
+    background: var(--background);
+    height: 5%;
+    z-index: 1;
+    /* Optional */
+    position: sticky;
+    top: 0;
+    margin: 0;
+  }
+  
+  /* Hide Hamburger */
+  #navbar label,
+  #hamburger {
+    display: none;
+  }
+  
+  /* Horizontal Menu Items */
+  #navbar-items {
+    display: flex;
+  }
+  
+  #navbar-items a {
+    width: 25%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  #navbar-items a:hover {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  
+  /* ON SMALL SCREENS */
+  @media screen and (max-width: 768px) {
+    #navbar {
+      margin: 0;
+    }
+    /* Show Hamburger Icon */
+    #navbar label {
+      display: inline-block;
+      color: white;
+      font-style: normal;
+      font-size: 1.2em;
+      padding: 10px;
+    }
+  
+    /* Break down menu items into vertical */
+    #navbar-items a {
+      box-sizing: border-box;
+      display: block;
+      width: 100%;
+      border-top: 1px solid #333;
+    }
+  
+    /* Toggle Show/Hide Menu */
+    #navbar-items {
+      display: none;
+    }
+    #navbar input:checked ~ #navbar-items {
+      display: block;
+      background: var(--background);
+    }
+  }
+  
+  /* end navbar */
+  
+  main {
+    /* margin: 0 2rem; */
+    height: 95%;
+  }
+  
+  .section {
+    margin-bottom: 5rem;
+  }
+  
+  .number {
+    font-weight: 200;
+    font-size: 5rem;
+    /* line-height: 7.5rem; */
+    opacity: 0.2;
+    margin: 0 2rem;
+  }
+  
+  .title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5rem;
+    margin: 0 2rem;
+  }
+  
+  .paragraph {
+    margin: 0 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .social-links-title {
+    margin: 0 2rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+  
+  .social-links {
+    margin: 3rem 0;
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 3rem;
+  }
+  
+  .icons i {
+    font-size: 3rem;
+    color: #ffffff;
+  }
+  
+  .icons i:hover {
+    opacity: 0.25;
+    scale: 1.1;
+  }
+  
+  .project {
+    height: 19rem;
+    padding: 10rem;
+    background-position: center;
+    background-position-y: top;
+    background-size: cover;
+    background-color: #17363f;
+    display: flex;
+    flex-direction: column;
+    height: 19rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 1rem;
+  }
+  
+  .project-1 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/online-shop-screenshot.png");
+  }
+  
+  .project-2 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/grouping-app-screenshot.png");
+  }
+  
+  .project-3 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/launchzilla-screenshot.png");
+  }
+  
+  .project-4 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/telegram-bot-screenshot.png");
+  }
+  
+  .project-5 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/zilda-screenshot.png");
+  }
+  
+  .project-6 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/flagify-screenshot.png");
+  }
+  
+  .project-7 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/weather-app.png");
+  }
+  
+  .project-8 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/todo-app-screenshot.JPG");
+  }
+  
+  .project-9 {
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 1)
+      ),
+      url("./assets/restaurant-app-screenshot.png");
+  }
+  
+  .project-title {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 100%;
+    color: #ffffff;
+    padding: 0 1rem;
+  }
+  
+  .project-tags {
+    margin: 2rem 0;
+  }
+  
+  .tag {
+    font-size: 1.2rem;
+    background: black;
+    opacity: 0.7;
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+  
+  .project-button {
+    width: 20rem;
+    height: 5rem;
+    color: white;
+    background: var(--accent);
+    border: none;
+    outline: none;
+    font-weight: 400;
+    margin-left: 1rem;
+  }
+  
+  .project-button:hover {
+    cursor: pointer;
+    scale: 0.99;
+    opacity: 0.8;
+  }
+  
+  .link-with-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+  
+  .link-with-icon a {
+    color: var(--accent);
+    font-weight: 400;
+    font-size: 1.8rem;
+    text-decoration: none;
+  }
+  
+  .link-with-icon a i {
+    margin-left: 1rem;
+  }
+  
+  .squares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .square {
+    width: 24.5rem;
+    height: 24.5rem;
+    padding: 2rem;
+    background: #212123;
+    box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin-bottom: 3rem;
+  }
+  
+  .language-icon i {
+    font-size: 3rem;
+    color: #22b07d;
+  }
+  
+  .language-icon {
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background: rgba(34, 176, 125, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .frameworks-icon i {
+    font-size: 3rem;
+    color: #376aed;
+  }
+  
+  .frameworks-icon {
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background: rgba(55, 106, 237, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .skills-icon i {
+    font-size: 3rem;
+    color: #f19d2a;
+  }
+  
+  .skills-icon {
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background: rgba(241, 157, 42, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .soft-skills-icon i {
+    font-size: 3rem;
+    color: #db4747;
+  }
+  
+  .soft-skills-icon {
+    width: 4.7rem;
+    height: 4.7rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    background: rgba(219, 71, 71, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .square-title {
+    width: 10rem;
+    height: 2.7rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #ffffff;
+  }
+  
+  .square-title {
+    width: 10rem;
+    height: 2.7rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.7rem;
+    color: #ffffff;
+  }
+  
+  .skill-list {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: -0.0525em;
+    color: #aaaaaa;
+    padding-left: 1.5rem;
+  }
+  
+  .contact-form {
+    margin: 0 2rem;
+    margin-top: 4rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name-group,
+  .email-group {
+    background: #101010;
+    height: 7rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+  }
+  
+  .name-group:hover,
+  .email-group:hover,
+  textarea:hover {
+    outline: solid 0.3rem var(--accent);
+  }
+  
+  label {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #7d7c84;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    color: #ffffff;
+    background: #101010;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    border: none;
+  }
+  
+  textarea {
+    padding: 2rem;
+    height: 20rem;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  textarea:focus {
+    outline: solid 0.3rem var(--accent);
+  }
+  
+  input[type="submit"] {
+    height: 5rem;
+    background: var(--accent);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+  
+  .bottom-links {
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .email {
+    font-weight: 900;
+    text-decoration: underline;
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 767px) {
+    .tag {
+      font-size: 1.8rem;
+    }
+  
+    .project-title {
+      font-size: 3rem;
+    }
+  
+    .project-button {
+      font-size: 2rem;
+      width: 25rem;
+    }
+  
+    .squares-wrapper {
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .squares {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      margin-right: 3rem;
+    }
+  
+    .square {
+      margin: 0;
+    }
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .title {
+      font-size: 11rem;
+      line-height: 85%;
+      margin-bottom: 2rem;
+    }
+  
+    .social-links {
+      text-align: center;
+    }
+  
+    .social-links-title {
+      font-size: 2.2rem;
+    }
+  
+    .icons i {
+      font-size: 4rem;
+    }
+  
+    .intro,
+    .portfolio,
+    .about,
+    .contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      margin-top: 10rem;
+    }
+  
+    .intro-wrapper {
+      position: relative;
+      width: 40%;
+    }
+  
+    .number {
+      font-size: 10rem;
+    }
+  
+    .number-intro {
+      position: absolute;
+      left: -9rem;
+      top: -11rem;
+      font-size: 10rem;
+    }
+  
+    .portfolio-title-wrapper {
+      position: relative;
+      width: 70%;
+    }
+  
+    .number-portfolio {
+      position: absolute;
+      left: -11rem;
+      top: -11rem;
+    }
+  
+    .project {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .tag {
+      font-size: 1.5rem;
+    }
+  
+    .project-2 .project-title,
+    .project-4 .project-title,
+    .project-8 .project-title {
+      font-size: 4rem;
+    }
+  
+    .project-2 .tag,
+    .project-4 .tag,
+    .project-8 .tag {
+      font-size: 2rem;
+    }
+  
+    .project-2 button,
+    .project-4 button,
+    .project-8 button {
+      font-size: 2.4rem;
+    }
+  
+    .projects {
+      height: 100%;
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+    }
+  
+    .span-col-2 {
+      grid-column: span 2 / auto;
+    }
+  
+    .span-row-2 {
+      grid-row: span 2 / auto;
+    }
+  
+    .square {
+      margin: 0;
+      width: 40rem;
+      height: 40rem;
+      padding: 5rem 0 0 5rem;
+    }
+  
+    .square-icon {
+      padding: 3rem;
+    }
+  
+    .square-title {
+      width: 100%;
+      margin: 2rem 0;
+    }
+  
+    .square-icon i,
+    .square-title {
+      font-size: 3rem;
+    }
+  
+    .skill-list {
+      font-size: 2.4rem;
+      line-height: 120%;
+      font-family: Poppins;
+      font-weight: normal;
+    }
+  
+    .about-wrapper {
+      width: 70%;
+    }
+  
+    .contact-wrapper {
+      width: 40%;
+    }
+  
+    .social-links-bottom {
+      margin: 5rem auto;
+      width: 35%;
+    }
+  }
+  
