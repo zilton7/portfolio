@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
       resources :projects, only: [:index]
       resources :texts, only: [:index]
+      resources :links, only: [:index]
     end
   end
 end
