@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import ProjectPanel from "./ProjectPanel";
+import Portfolio from "./Portfolio";
 import Nav from "./Nav";
 import Intro from "./Intro";
 
@@ -39,9 +39,7 @@ const App = () => {
         description={texts.intro_description}
         links={links}
       />
-      <div id="portfolio" className="section portfolio">
-        {<ProjectPanel projects={projects} />}
-      </div>
+      <Portfolio title={texts.portfolio_title} projects={projects} />
     </>
   );
 };
