@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :links
   root to: 'home#index'
   devise_for :admins, :controllers => {:sessions => "sessions"}
 

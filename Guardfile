@@ -53,7 +53,8 @@ guard 'livereload' do
   watch(%r{app/helpers/.+\.rb})
   watch(%r{config/locales/.+\.yml})
 
-  watch(%r{app/assets/stylesheets/home/.+\.scss})
-  watch(%r{app/assets/stylesheets/admin/.+\.scss})
-  watch(%r{app/javascript/.+/.+\.js})
+  # watch(%r{app/assets/stylesheets/home/.+\.scss})
+  # watch(%r{app/assets/stylesheets/admin/.+\.scss})
+  # watch(%r{app/javascript/.+/.+\.js})
+  watch(%r{^app/(.+)})  
 end
