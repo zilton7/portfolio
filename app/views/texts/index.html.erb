@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Texts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Intro title</th>
+      <th>Intro description</th>
+      <th>Portfolio title</th>
+      <th>Aboutme title</th>
+      <th>Aboutme description</th>
+      <th>Resume link</th>
+      <th>Contact title</th>
+      <th>Contact description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @texts.each do |text| %>
+      <tr>
+        <td><%= text.intro_title %></td>
+        <td><%= text.intro_description %></td>
+        <td><%= text.portfolio_title %></td>
+        <td><%= text.aboutme_title %></td>
+        <td><%= text.aboutme_description %></td>
+        <td><%= text.resume_link %></td>
+        <td><%= text.contact_title %></td>
+        <td><%= text.contact_description %></td>
+        <td><%= link_to 'Show', text %></td>
+        <td><%= link_to 'Edit', edit_text_path(text) %></td>
+        <td><%= link_to 'Destroy', text, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Text', new_text_path %>

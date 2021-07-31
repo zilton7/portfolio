@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Intro title:</strong>
+  <%= @text.intro_title %>
+</p>
+
+<p>
+  <strong>Intro description:</strong>
+  <%= @text.intro_description %>
+</p>
+
+<p>
+  <strong>Portfolio title:</strong>
+  <%= @text.portfolio_title %>
+</p>
+
+<p>
+  <strong>Aboutme title:</strong>
+  <%= @text.aboutme_title %>
+</p>
+
+<p>
+  <strong>Aboutme description:</strong>
+  <%= @text.aboutme_description %>
+</p>
+
+<p>
+  <strong>Resume link:</strong>
+  <%= @text.resume_link %>
+</p>
+
+<p>
+  <strong>Contact title:</strong>
+  <%= @text.contact_title %>
+</p>
+
+<p>
+  <strong>Contact description:</strong>
+  <%= @text.contact_description %>
+</p>
+
+<%= link_to 'Edit', edit_text_path(@text) %> |
+<%= link_to 'Back', texts_path %>

@@ -1,5 +1,6 @@
 class LinksController < ApplicationController
   layout "application_admin"
+  before_action :authenticate_admin!
   before_action :set_link, only: %i[ show edit update destroy ]
 
   # GET /links or /links.json
