@@ -8,7 +8,7 @@ const Project = ({ project }) => {
   return (
     <div
       className={`project ${
-        ["2", "4", "6"].includes(project.position)
+        ["2", "4", "8"].includes(project.position)
           ? "span-row-2  span-col-2"
           : ""
       }`}

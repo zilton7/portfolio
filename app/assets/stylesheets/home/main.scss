@@ -629,7 +629,7 @@
       display: grid;
       grid-gap: 1rem;
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(6, 1fr);
+      // grid-template-rows: repeat(6, 1fr);
     }
   
     .span-col-2 {

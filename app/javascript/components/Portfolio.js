@@ -10,7 +10,7 @@ const Portfolio = ({ projects }) => {
         <div className="number number-portfolio">02</div>
         <h3 className="title">Portfolio</h3>
       </div>
-      <div className="projects">{projectList}</div>;
+      <div className="projects">{projectList}</div>
     </div>
   );
 };

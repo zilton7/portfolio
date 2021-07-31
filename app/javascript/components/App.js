@@ -3,6 +3,8 @@ import axios from "axios";
 import Portfolio from "./Portfolio";
 import Nav from "./Nav";
 import Intro from "./Intro";
+import About from "./AboutMe";
+import Contact from "./Contact";
 
 const App = () => {
   const [texts, setTexts] = useState({});
@@ -40,6 +42,17 @@ const App = () => {
         links={links}
       />
       <Portfolio title={texts.portfolio_title} projects={projects} />
+      <About
+        title={texts.aboutme_title}
+        description={texts.aboutme_description}
+        resumeLink={texts.resume_link}
+      />
+      <Contact
+        title={texts.contact_title}
+        description={texts.contact_description}
+        links={links}
+        resumeLink={texts.resume_link}
+      />
     </>
   );
 };
