@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ProjectPanel from "./ProjectPanel";
+import Nav from "./Nav";
 
 const App = () => {
   const [projects, setProjects] = useState([]);
@@ -15,9 +16,12 @@ const App = () => {
   }, []);
 
   return (
-    <div id="portfolio" className="section portfolio">
-      {<ProjectPanel projects={projects} />}
-    </div>
+    <>
+      <Nav />
+      <div id="portfolio" className="section portfolio">
+        {<ProjectPanel projects={projects} />}
+      </div>
+    </>
   );
 };
 
