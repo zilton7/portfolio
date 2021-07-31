@@ -1,6 +1,7 @@
 import React from "react";
+import Squares from "./Squares";
 
-const AboutMe = ({ title, description, resumeLink }) => {
+const AboutMe = ({ title, description, resumeLink, abilities }) => {
   return (
     <div id="about" class="section about">
       <div class="about-wrapper">
@@ -15,6 +16,7 @@ const AboutMe = ({ title, description, resumeLink }) => {
           </span>
         </div>
       </div>
+      <Squares abilities={abilities} />
     </div>
   );
 };

@@ -69,7 +69,7 @@ texts = {
  abilities = [
    {
    "name": "Languages",
-   "icon": "language-icon square-icon",
+   "icon": "fas fa-hashtag",
    "skills": "Ruby, JavaScript, Python, PHP"
  },
   {
@@ -79,12 +79,12 @@ texts = {
   },
   {
     "name": "Skills",
-    "icon": "skills-icon square-icon",
+    "icon": "far fa-lightbulb",
     "skills": "GitHub, Terminal, GitLab, Linux"
   },
   {
     "name": "Soft skills",
-    "icon": "soft-skills-icon square-icon",
+    "icon": "far fa-heart",
     "skills": "Communication, Problem-solving, Patience, Adaptability"
   }
 ]
