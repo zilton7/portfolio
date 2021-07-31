@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :abilities
   resources :texts
   resources :links
   root to: 'home#index'
@@ -12,10 +13,10 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-
       resources :projects, only: [:index]
       resources :texts, only: [:index]
       resources :links, only: [:index]
+      resources :abilities, only: [:index]
     end
   end
 end

@@ -65,3 +65,31 @@ texts = {
  Link.create(links)
  p 'links created'
  
+
+ abilities = [
+   {
+   "name": "Languages",
+   "icon": "language-icon square-icon",
+   "skills": "Ruby, JavaScript, Python, PHP"
+ },
+  {
+    "name": "Frameworks",
+    "icon": "fas fa-crop-alt",
+    "skills": "Bootstrap, Ruby on Rails, RSpec, Selenium"
+  },
+  {
+    "name": "Skills",
+    "icon": "skills-icon square-icon",
+    "skills": "GitHub, Terminal, GitLab, Linux"
+  },
+  {
+    "name": "Soft skills",
+    "icon": "soft-skills-icon square-icon",
+    "skills": "Communication, Problem-solving, Patience, Adaptability"
+  }
+]
+
+
+Ability.destroy_all
+Ability.create(abilities)
+p 'abilities created'
