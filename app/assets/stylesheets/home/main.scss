@@ -31,7 +31,7 @@
   /* Wrapper */
   #navbar {
     width: 100%;
-    background: var(--background);
+    background: $background;
     height: 5%;
     z-index: 1;
     /* Optional */
@@ -60,7 +60,7 @@
   }
   
   #navbar-items a:hover {
-    color: var(--accent);
+    color: $accent;
     text-decoration: underline;
   }
   
@@ -92,7 +92,7 @@
     }
     #navbar input:checked ~ #navbar-items {
       display: block;
-      background: var(--background);
+      background: $background;
     }
   }
   
@@ -134,7 +134,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
-    color: var(--accent);
+    color: $accent;
     margin-bottom: 1rem;
   }
   
@@ -301,7 +301,7 @@
   }
   
   .link-with-icon a {
-    color: var(--accent);
+    color: $accent;
     font-weight: 400;
     font-size: 1.8rem;
     text-decoration: none;
@@ -441,7 +441,7 @@
   .name-group:hover,
   .email-group:hover,
   textarea:hover {
-    outline: solid 0.3rem var(--accent);
+    outline: solid 0.3rem $accent;
   }
   
   label {
@@ -478,12 +478,12 @@
   }
   
   textarea:focus {
-    outline: solid 0.3rem var(--accent);
+    outline: solid 0.3rem $accent;
   }
   
   input[type="submit"] {
     height: 5rem;
-    background: var(--accent);
+    background: $accent;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
   }
