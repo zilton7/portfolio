@@ -16,25 +16,25 @@ const Home = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/v1/texts")
+      .get("api/v1/texts")
       .then((response) => {
         setTexts(response.data[0]);
       })
       .catch((response) => console.log(response));
     axios
-      .get("http://localhost:3000/api/v1/projects")
+      .get("api/v1/projects")
       .then((response) => {
         setProjects(response.data);
       })
       .catch((response) => console.log(response));
     axios
-      .get("http://localhost:3000/api/v1/links")
+      .get("api/v1/links")
       .then((response) => {
         setLinks(response.data);
       })
       .catch((response) => console.log(response));
     axios
-      .get("http://localhost:3000/api/v1/abilities")
+      .get("api/v1/abilities")
       .then((response) => {
         setAbilities(response.data);
         console.log(response.data);
