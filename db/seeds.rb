@@ -7,7 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-projects = [{
+projects = [
+  {
   "name": 'Online Book Store Design',
   "description": 'Online shop design built with Bootstrap and custom HTML/CSS.',
   "tags": 'HTML/CSS, Bootstrap',
@@ -15,11 +16,25 @@ projects = [{
   "live_link": 'https://zilton7.github.io/online-shop/',
   "source_link": 'https://github.com/zilton7/online-shop',
   "position": '1'
-}
+  },
+  {
+    "name": 'Gift Grouping App',
+    "description": 'Gift Grouping is a mobile-only app where you can sign up and/or sign in, create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
+    "tags": ' Ruby on Rails, PostgreSQL, Bootstrap ',
+    "image": 'https://zil.norvilis.com/assets/grouping-app-screenshot.png',
+    "live_link": 'https://grouping-app.herokuapp.com/',
+    "source_link": 'https://github.com/zilton7/grouping-app',
+    "position": '2'
+  }
 ]
 
 Project.destroy_all
-9.times do |index|
+8.times do |index|
+  if index == 1
+    projects[1][:position] = (index+1).to_s
+    Project.create(projects[1])
+    next
+  end
   projects[0][:position] = (index+1).to_s
   Project.create(projects[0])
 end
