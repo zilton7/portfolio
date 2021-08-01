@@ -1,5 +1,7 @@
 class AbilitiesController < ApplicationController
+  layout 'application_admin'
   before_action :set_ability, only: %i[ show edit update destroy ]
+  before_action :authenticate_admin!
 
   # GET /abilities or /abilities.json
   def index
