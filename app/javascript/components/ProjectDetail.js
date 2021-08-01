@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-const ProjectDetail = ({ project }) => {
-  const tags = project.tags
+const ProjectDetail = ({ projects, index }) => {
+  const [currentProject, setCurrentProject] = useState(projects[index]);
+
+  const tags = currentProject.tags
     .split(",")
     .map((tag) => <span className="tag">{tag.trim()}</span>);
+
+  const skipProjectHandler = (direction) => {
+    let currentIndex = projects.findIndex(
+      (project) => project.id === currentProject.id
+    );
+    if (direction === "next") {
+      setCurrentProject(projects[(currentIndex + 1) % projects.length]);
+    } else if (direction === "prev") {
+      let nextProject = projects[currentIndex - 1];
+      nextProject
+        ? setCurrentProject(nextProject)
+        : setCurrentProject(projects[projects.length - 1]);
+    }
+  };
 
   const history = useHistory();
   const exitDetailHandler = (e) => {
@@ -31,38 +47,50 @@ const ProjectDetail = ({ project }) => {
             &times;
           </span>
           <p className="modal-title" id="project-title">
-            {project.name}
+            {currentProject.name}
           </p>
         </div>
         <div className="project-tags" id="project-tags">
           {tags}
         </div>
         <div className="modal-image-wrapper">
-          <div id="arrow-prev" className="arrow">
+          <div
+            id="arrow-prev"
+            className="arrow"
+            onClick={() => skipProjectHandler("prev")}
+          >
             <i className="fas fa-arrow-circle-left"></i>
           </div>
           <div className="modal-image">
-            <img src={project.image} id="project-image" alt="" />
+            <img src={currentProject.image} id="project-image" alt="" />
           </div>
-          <div id="arrow-next" className="arrow">
+          <div
+            id="arrow-next"
+            className="arrow"
+            onClick={() => skipProjectHandler("next")}
+          >
             <i className="fas fa-arrow-circle-right"></i>
           </div>
         </div>
         <p className="description modal-description" id="project-description">
-          {project.description}
+          {currentProject.description}
         </p>
         <div
           className="link-with-icon-wrapper modal-link-wrapper"
           id="project-links"
         >
           <span class="link-with-icon">
-            <a href={project.live_link} target="_blank" id="project-live-link">
+            <a
+              href={currentProject.live_link}
+              target="_blank"
+              id="project-live-link"
+            >
               See live<i class="fas fa-external-link-alt"></i>
             </a>
           </span>
           <span class="link-with-icon">
             <a
-              href={project.source_link}
+              href={currentProject.source_link}
               target="_blank"
               id="project-source-link"
             >

@@ -48,7 +48,9 @@ const Home = () => {
   return (
     <>
       <Nav />
-      {pathId && <ProjectDetail project={projects[parseInt(pathId) - 1]} />}
+      {pathId && (
+        <ProjectDetail projects={projects} index={parseInt(pathId) - 1} />
+      )}
       <Intro
         title={texts.intro_title}
         description={texts.intro_description}
