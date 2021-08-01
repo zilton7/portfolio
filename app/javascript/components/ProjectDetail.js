@@ -2,6 +2,10 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 
 const ProjectDetail = ({ project }) => {
+  const tags = project.tags
+    .split(",")
+    .map((tag) => <span className="tag">{tag.trim()}</span>);
+
   const history = useHistory();
   const exitDetailHandler = (e) => {
     const el = e.target;
@@ -11,31 +15,6 @@ const ProjectDetail = ({ project }) => {
   };
 
   return (
-    // <div
-    //   className="project-detail-shadow close-project-detail"
-    //   role="button"
-    //   tabIndex="0"
-    //   onClick={exitDetailHandler}
-    //   onKeyDown={exitDetailHandler}
-    // >
-    //   <div className="project-detail">
-    //     <div className="project-detail-head">
-    //       <span
-    //         className="close-project-detail"
-    //         role="button"
-    //         tabIndex="0"
-    //         onClick={exitDetailHandler}
-    //         onKeyDown={exitDetailHandler}
-    //       >
-    //         X
-    //       </span>
-    //     </div>
-    //     <div className="project-detail-wrapper">
-    //       <h3 className="project-detail-name">{project.name}</h3>
-    //       <img src={project.image} alt="" />
-    //     </div>
-    //   </div>
-    // </div>
     <div
       id="project-modal"
       className="modal close-project-detail"
@@ -51,15 +30,19 @@ const ProjectDetail = ({ project }) => {
           >
             &times;
           </span>
-          <p className="modal-title" id="project-title"></p>
+          <p className="modal-title" id="project-title">
+            {project.name}
+          </p>
         </div>
-        <div className="project-tags" id="project-tags"></div>
+        <div className="project-tags" id="project-tags">
+          {tags}
+        </div>
         <div className="modal-image-wrapper">
           <div id="arrow-prev" className="arrow">
             <i className="fas fa-arrow-circle-left"></i>
           </div>
           <div className="modal-image">
-            <img src="" id="project-image" alt="" />
+            <img src={project.image} id="project-image" alt="" />
           </div>
           <div id="arrow-next" className="arrow">
             <i className="fas fa-arrow-circle-right"></i>
@@ -71,7 +54,22 @@ const ProjectDetail = ({ project }) => {
         <div
           className="link-with-icon-wrapper modal-link-wrapper"
           id="project-links"
-        ></div>
+        >
+          <span class="link-with-icon">
+            <a href={project.live_link} target="_blank" id="project-live-link">
+              See live<i class="fas fa-external-link-alt"></i>
+            </a>
+          </span>
+          <span class="link-with-icon">
+            <a
+              href={project.source_link}
+              target="_blank"
+              id="project-source-link"
+            >
+              Check source<i class="fab fa-github-square"></i>
+            </a>
+          </span>
+        </div>
       </div>
     </div>
   );
