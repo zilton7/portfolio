@@ -4,10 +4,11 @@ Rails.application.routes.draw do
   devise_for :admins, controllers: { sessions: :sessions}
   
   devise_scope :admin do
-    get '/admin', to: 'projects#new'
+    get '/admin', to: 'dashboard#index'
   end
   
   scope :admin do
+    resources :dashboard, only: [:index]
     resources :projects
     resources :abilities
     resources :texts
