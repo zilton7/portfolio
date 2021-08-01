@@ -1,15 +1,19 @@
 Rails.application.routes.draw do
-  resources :abilities
-  resources :texts
-  resources :links
   root to: 'home#index'
-  devise_for :admins, :controllers => {:sessions => "sessions"}
-
+  
+  devise_for :admins, controllers: { sessions: :sessions}
+  
   devise_scope :admin do
-    get '/admin', to: 'sessions#new'
+    get '/admin', to: 'projects#new'
   end
-
-  resources :projects
+  
+  scope :admin do
+    resources :projects
+    resources :abilities
+    resources :texts
+    resources :links
+  end
+  
 
   namespace :api do
     namespace :v1 do
