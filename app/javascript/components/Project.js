@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Project = ({ project }) => {
   const tags = project.tags
@@ -21,7 +22,9 @@ const Project = ({ project }) => {
         <p className="project-title">{project.name}</p>
         <div className="project-tags">{tags}</div>
       </div>
-      <button className="project-button">See this project →</button>
+      <Link className="project-button" to={`/project/${project.position}`}>
+        See this project →
+      </Link>
     </div>
   );
 };

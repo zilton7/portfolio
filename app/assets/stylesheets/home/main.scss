@@ -2,12 +2,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100;300;400;500;700&display=swap);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css);
 
-:root {
-    /* --accent: #3e5641; */
-    --accent: #db4747;
-    --background: #1b1b1e;
-  }
-  
   *,
   *::before,
   *::after {
@@ -285,8 +279,9 @@
   .project-button {
     width: 20rem;
     height: 5rem;
+    text-align: center;
     color: white;
-    background: var(--accent);
+    background: $accent;
     border: none;
     outline: none;
     font-weight: 400;

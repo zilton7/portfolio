@@ -1,0 +1,47 @@
+.project-detail-shadow {
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .project-detail {
+    width: 80%;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    color: black;
+  }
+  
+  .project-detail-head {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .project-detail-name {
+    margin-top: 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  .project-detail-head span {
+    cursor: pointer;
+    margin: 0 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .project-detail-wrapper {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .project-detail img {
+    width: 100%;
+  }
