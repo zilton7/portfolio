@@ -1,20 +1,36 @@
-<nav id="nav">
-    <ul>
-
-        <% if admin_signed_in? %>
+<% if admin_signed_in? %>
+    <nav id="nav">
+        <ul id="menu">
+        <div id="title">Dashboard</div>
+        <div> 
+            <li>
+            <%= link_to 'Home', root_path %>
+            </li>
+            <li>
+                <%= link_to 'Texts' %>    
+                <ul>    
+                    <li><%= link_to 'New Texts', new_text_path %></li>      
+                    <li><%= link_to 'All Texts', texts_path %></li>      
+                </ul>    
+            </li>    
+            <li>
+                <%= link_to 'Projects' %>    
+                <ul>    
+                    <li><%= link_to 'New Project', new_project_path %></li>      
+                    <li><%= link_to 'All Projects', projects_path %></li>      
+                </ul>    
+            </li>    
+            <li>
+                <%= link_to 'Abilities' %>    
+                <ul>    
+                    <li><%= link_to 'New Ability', new_ability_path %></li>      
+                    <li><%= link_to 'All Abilities', abilities_path %></li>      
+                </ul>    
+            </li>
+        </div>
         <li>
-            <%= link_to 'New Project', new_project_path %>
+            <%= link_to 'Logout', destroy_admin_session_path, id: 'logout-button', method: :delete, data: { confirm: 'Are you sure?' } %>
         </li>
-        <li>
-            <%= link_to 'My Projects', "#{ projects_path }" %>
-        </li>
-
-        </li>
-        <li>
-            <%= button_to 'Logout', destroy_admin_session_path, id: 'logout-button', method: :delete %>
-        </li>
-
-        <% end %>
-
-    </ul>
-</nav>
+        </ul>
+    </nav>
+<% end %>
