@@ -8,19 +8,12 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import ProjectDetail from "./ProjectDetail";
 
-const Home = () => {
-  const [texts, setTexts] = useState({});
+const Home = ({ texts }) => {
   const [projects, setProjects] = useState([]);
   const [links, setLinks] = useState([]);
   const [abilities, setAbilities] = useState([]);
 
   useEffect(() => {
-    axios
-      .get("api/v1/texts")
-      .then((response) => {
-        setTexts(response.data[0]);
-      })
-      .catch((response) => console.log(response));
     axios
       .get("api/v1/projects")
       .then((response) => {
