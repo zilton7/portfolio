@@ -8,7 +8,8 @@ const App = () => {
   const [analytics, setAnalytics] = useState("");
   if (analytics !== "") {
     useEffect(() => {
-      ReactGA.initialize("Your Unique ID");
+      ReactGA.initialize(analytics);
+      ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
   }
 
