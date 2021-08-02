@@ -12,7 +12,7 @@ const App = () => {
     axios
       .get("api/v1/texts")
       .then((response) => {
-        setTexts(response.data[0].analytics);
+        setTexts(response.data[0]);
       })
       .catch((response) => console.log(response));
 
