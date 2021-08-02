@@ -13,11 +13,11 @@ const App = () => {
       .get("api/v1/texts")
       .then((response) => {
         setTexts(response.data[0]);
+
+        ReactGA.initialize(response.data[0].analytics);
+        ReactGA.pageview(window.location.pathname + window.location.search);
       })
       .catch((response) => console.log(response));
-
-    ReactGA.initialize("G-DZLYSZWR8M");
-    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (
