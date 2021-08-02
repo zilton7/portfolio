@@ -66,6 +66,6 @@ class TextsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def text_params
-      params.require(:text).permit(:intro_title, :intro_description, :portfolio_title, :aboutme_title, :aboutme_description, :resume_link, :contact_title, :contact_description)
+      params.require(:text).permit(:intro_title, :intro_description, :portfolio_title, :aboutme_title, :aboutme_description, :resume_link, :contact_title, :contact_description, :analytics)
     end
 end

@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :texts
   root to: 'home#index'
   
   devise_for :admins, controllers: { sessions: :sessions}
@@ -11,8 +12,7 @@ Rails.application.routes.draw do
     resources :dashboard, only: [:index]
     resources :projects
     resources :abilities
-    resources :texts
-    resources :links
+      resources :links
   end
   
 

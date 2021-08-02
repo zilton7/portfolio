@@ -9,6 +9,7 @@ class CreateTexts < ActiveRecord::Migration[6.1]
       t.string :resume_link
       t.string :contact_title
       t.string :contact_description
+      t.string :analytics
 
       t.timestamps
     end
