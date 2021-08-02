@@ -12,13 +12,19 @@ const App = () => {
     axios
       .get("api/v1/texts")
       .then((response) => {
-        setTexts(response.data[0]);
-
-        ReactGA.initialize(response.data[0].analytics);
-        ReactGA.pageview(window.location.pathname + window.location.search);
+        setTexts(response.data[0], () => {
+          loadGoogleAnalytics();
+        });
       })
       .catch((response) => console.log(response));
   }, []);
+
+  useEffect(() => {
+    if (texts.analytics !== "") {
+      ReactGA.initialize(texts.analytics);
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+  }, [texts]);
 
   return (
     <>
