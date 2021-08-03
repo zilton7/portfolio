@@ -6,6 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+case Rails.env
+when "development"
+   Admin.create(email: 'zil@norvilis.com', password: '123456', password_confirmation: '123456')
+  p 'Admin created'
+end
+
+
 
 projects = [
   {
