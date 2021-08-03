@@ -75,7 +75,7 @@ projects = [
     "name": 'Todo App',
     "description": 'A simple To-Do-List app built using Node and webpack. Users have the ability to add projects, add tasks to each project, and include project description, due date, and priority.',
     "tags": 'JavaScript, Node, HTML/CSS',
-    "image": 'https://zil.norvilis.com/assets/weather-app.png',
+    "image": 'https://zil.norvilis.com/assets/todo-app-screenshot.JPG',
     "live_link": 'https://aymanjabr.github.io/To-do-list-app/',
     "source_link": 'https://github.com/zilton7/To-do-list-app',
     "position": '8'
