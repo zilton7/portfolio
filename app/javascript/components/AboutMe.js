@@ -3,9 +3,11 @@ import Squares from "./Squares";
 
 const AboutMe = ({ title, description, resumeLink, abilities }) => {
   return (
-    <div id="about" class="section about">
+    <div class="section about">
       <div class="about-wrapper">
-        <div class="number">03</div>
+        <div id="about" class="number">
+          03
+        </div>
         <h3 class="title">{title}</h3>
         <p class="paragraph">{description}</p>
         <div class="link-with-icon-wrapper">

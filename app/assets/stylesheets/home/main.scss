@@ -61,7 +61,8 @@
   
   #navbar-items a:hover {
     color: $accent;
-    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;    
   }
   
   /* ON SMALL SCREENS */

@@ -3,9 +3,11 @@ import Links from "./Links";
 
 const Contact = ({ title, description, links, resumeLink }) => {
   return (
-    <div id="contact" className="section contact">
+    <div className="section contact">
       <div className="contact-wrapper">
-        <div className="number">04</div>
+        <div id="contact" className="number">
+          04
+        </div>
         <h3 className="title">{title}</h3>
         <p className="paragraph">{description}</p>
         <div className="contact-form">

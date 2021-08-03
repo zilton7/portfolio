@@ -1,5 +1,5 @@
 import React from "react";
-
+import Intro from "./Intro";
 const Nav = () => {
   return (
     <nav id="navbar">
@@ -7,10 +7,10 @@ const Nav = () => {
       <input type="checkbox" id="hamburger" />
 
       <div id="navbar-items">
-        <a href="#intro">Intro</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+        <a onClick={() => window.location.replace("/#intro")}>Intro</a>
+        <a onClick={() => window.location.replace("/#portfolio")}>Portfolio</a>
+        <a onClick={() => window.location.replace("/#about")}>About</a>
+        <a onClick={() => window.location.replace("/#contact")}>Contact</a>
       </div>
     </nav>
   );
