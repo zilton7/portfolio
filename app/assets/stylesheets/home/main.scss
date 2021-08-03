@@ -152,7 +152,7 @@
   .icons i {
     font-size: 3rem;
     color: #ffffff;
-    margin: 0 2rem;
+    margin: 0 1.3rem;
   }
   
   .icons i:hover {
@@ -176,87 +176,6 @@
     margin-bottom: 1rem;
   }
   
-  .project-1 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/online-shop-screenshot.png");
-  }
-  
-  .project-2 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/grouping-app-screenshot.png");
-  }
-  
-  .project-3 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/launchzilla-screenshot.png");
-  }
-  
-  .project-4 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/telegram-bot-screenshot.png");
-  }
-  
-  .project-5 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/zilda-screenshot.png");
-  }
-  
-  .project-6 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/flagify-screenshot.png");
-  }
-  
-  .project-7 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/weather-app.png");
-  }
-  
-  .project-8 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/todo-app-screenshot.JPG");
-  }
-  
-  .project-9 {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 1)
-      ),
-      url("./assets/restaurant-app-screenshot.png");
-  }
-  
   .project-title {
     font-size: 2rem;
     font-weight: 400;
@@ -276,22 +195,31 @@
     padding: 1rem;
     margin-left: 2rem;
   }
-  
-  .project-button {
+
+  .project-button-wrapper {
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
     width: 20rem;
     height: 5rem;
-    text-align: center;
-    color: white;
     background: $accent;
+  }
+  
+  .project-button {
+    color: white;
+    font-size: 1.75rem;
     border: none;
     outline: none;
     font-weight: 400;
     margin-left: 1rem;
+    text-decoration: none;
   }
   
-  .project-button:hover {
+  .project-button-wrapper:hover {
     cursor: pointer;
-    scale: 0.99;
+    scale: 0.97;
     opacity: 0.8;
   }
   
@@ -513,7 +441,7 @@
     }
   
     .project-button {
-      font-size: 2rem;
+      font-size: 1.75rem;
       width: 25rem;
     }
   
@@ -602,22 +530,17 @@
       font-size: 1.5rem;
     }
   
-    .project-2 .project-title,
-    .project-4 .project-title,
-    .project-8 .project-title {
-      font-size: 4rem;
+    .project .project-title {
+      font-size: 3rem;
     }
   
-    .project-2 .tag,
-    .project-4 .tag,
-    .project-8 .tag {
-      font-size: 2rem;
+    .project .tag {
+      font-size: 1.5rem;
     }
   
-    .project-2 button,
-    .project-4 button,
-    .project-8 button {
-      font-size: 2.4rem;
+
+    .project-button {
+      font-size: 1.85rem;
     }
   
     .projects {

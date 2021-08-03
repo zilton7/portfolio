@@ -22,9 +22,11 @@ const Project = ({ project }) => {
         <p className="project-title">{project.name}</p>
         <div className="project-tags">{tags}</div>
       </div>
-      <Link className="project-button" to={`/project/${project.position}`}>
-        See this project →
-      </Link>
+      <div className="project-button-wrapper">
+        <Link className="project-button" to={`/project/${project.position}`}>
+          See this project →
+        </Link>
+      </div>
     </div>
   );
 };
