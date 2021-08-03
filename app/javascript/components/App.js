@@ -19,12 +19,12 @@ const App = () => {
       .catch((response) => console.log(response));
   }, []);
 
-  useEffect(() => {
-    if (texts.analytics !== "") {
-      ReactGA.initialize(texts.analytics);
-      ReactGA.pageview(window.location.pathname + window.location.search);
-    }
-  }, [texts]);
+  // useEffect(() => {
+  //   if (texts.analytics !== "") {
+  //     ReactGA.initialize(texts.analytics);
+  //     ReactGA.pageview(window.location.pathname + window.location.search);
+  //   }
+  // }, [texts]);
 
   return (
     <>
