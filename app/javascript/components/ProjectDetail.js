@@ -79,24 +79,28 @@ const ProjectDetail = ({ projects, index }) => {
           className="link-with-icon-wrapper modal-link-wrapper"
           id="project-links"
         >
-          <span class="link-with-icon">
-            <a
-              href={currentProject.live_link}
-              target="_blank"
-              id="project-live-link"
-            >
-              See live<i class="fas fa-external-link-alt"></i>
-            </a>
-          </span>
-          <span class="link-with-icon">
-            <a
-              href={currentProject.source_link}
-              target="_blank"
-              id="project-source-link"
-            >
-              Check source<i class="fab fa-github-square"></i>
-            </a>
-          </span>
+          {currentProject.live_link !== "" && (
+            <span class="link-with-icon">
+              <a
+                href={currentProject.live_link}
+                target="_blank"
+                id="project-live-link"
+              >
+                See live<i class="fas fa-external-link-alt"></i>
+              </a>
+            </span>
+          )}
+          {currentProject.source_link !== "" && (
+            <span class="link-with-icon">
+              <a
+                href={currentProject.source_link}
+                target="_blank"
+                id="project-source-link"
+              >
+                Check source<i class="fab fa-github-square"></i>
+              </a>
+            </span>
+          )}
         </div>
       </div>
     </div>
