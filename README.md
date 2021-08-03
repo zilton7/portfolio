@@ -9,7 +9,7 @@ Things you may want to cover:
 
 * System dependencies
 
-* Configuration
+[Live Demo Link](https://www.zilton7.github.io/portfolio/)
 
 * Database creation
 
