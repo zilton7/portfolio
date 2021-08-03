@@ -1,0 +1,29 @@
+@import '../home/colors';
+
+  *,
+  *::before,
+  *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+body {
+  font-family: Poppins, Helvetica, "Times New Roman", Times, serif;
+  background-color: $background;
+  color: white;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: normal;
+  height: 100%;
+  margin: 0 2rem;
+  a {
+    color: rgb(117, 76, 76);
+  }
+      }
+      

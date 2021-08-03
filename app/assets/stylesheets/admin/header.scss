@@ -1,0 +1,25 @@
+nav {
+    margin: 1rem;
+    padding: 2rem;
+    outline: solid 0.1rem;
+    display: flex;
+    justify-content: center;
+    
+    #title {
+        font-size: 2.5rem;
+    }
+
+    ul {
+        li {
+            font-size: 1.5rem;
+            list-style: none;
+            margin: 0 2rem;
+            border-radius: 1.5rem;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}

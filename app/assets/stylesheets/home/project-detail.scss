@@ -1,0 +1,128 @@
+/* The Modal (background) */
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #1b1b1e;
+  padding: 2rem;
+  border: 0.1rem solid #888;
+  width: 100%; /* Could be more or less, depending on screen size */
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+}
+
+.fas {
+  font-size: 3rem;
+}
+
+.modal-head {
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.modal-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.4rem;
+}
+
+.modal-image-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.arrow {
+  color: white;
+  padding: 1rem;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.modal-image {
+  width: 50rem;
+}
+
+.modal-image img {
+  width: 100%;
+}
+
+.modal-description {
+  margin: 2rem 0;
+  font-size: 1.8rem;
+}
+
+.modal-link-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#project-description {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 767px) {
+  .modal-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4rem;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 3.8rem;
+    font-weight: bold;
+  }
+
+  .modal-image {
+    width: 70rem;
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    margin: 3.5% auto; /* 15% from the top and centered */
+    background-color: #1b1b1e;
+    padding: 2rem;
+    border: 0.1rem solid #888;
+    width: 90%; /* Could be more or less, depending on screen size */
+    height: 90%;
+    overflow: auto; /* Enable scroll if needed */
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}

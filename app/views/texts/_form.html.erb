@@ -1,0 +1,62 @@
+<%= form_with(model: text) do |form| %>
+  <% if text.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(text.errors.count, "error") %> prohibited this text from being saved:</h2>
+
+      <ul>
+        <% text.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :intro_title %>
+    <%= form.text_field :intro_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :intro_description %>
+    <%= form.text_area :intro_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :portfolio_title %>
+    <%= form.text_field :portfolio_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :aboutme_title %>
+    <%= form.text_field :aboutme_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :aboutme_description %>
+    <%= form.text_area :aboutme_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :resume_link %>
+    <%= form.text_field :resume_link %>
+  </div>
+
+  <div class="field">
+    <%= form.label :contact_title %>
+    <%= form.text_field :contact_title %>
+  </div>
+
+  <div class="field">
+    <%= form.label :contact_description %>
+    <%= form.text_field :contact_description %>
+  </div>
+
+  <div class="field">
+    <%= form.label :analytics %>
+    <%= form.text_field :analytics %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

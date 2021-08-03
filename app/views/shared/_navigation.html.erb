@@ -1,0 +1,28 @@
+<% if admin_signed_in? %>
+    <nav id="nav">
+        <ul id="menu">
+        <div id="title">Dashboard</div>
+        <div> 
+            <li>
+            <%= link_to 'Home', root_path %>
+            </li>
+            <li>
+                <%= link_to 'Texts', texts_path %>        
+            </li>    
+            <li>
+                <%= link_to 'Projects' %>    
+                <ul>    
+                    <li><%= link_to 'New Project', new_project_path %></li>      
+                    <li><%= link_to 'All Projects', projects_path %></li>      
+                </ul>    
+            </li>    
+            <li>
+                <%= link_to 'Abilities', abilities_path %>     
+            </li>
+        </div>
+        <li>
+            <%= link_to 'Logout', destroy_admin_session_path, id: 'logout-button', method: :delete, data: { confirm: 'Are you sure?' } %>
+        </li>
+        </ul>
+    </nav>
+<% end %>
