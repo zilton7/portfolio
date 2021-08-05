@@ -8,7 +8,8 @@
 
 case Rails.env
 when "development"
-   Admin.create(email: 'zil@norvilis.com', password: '123456', password_confirmation: '123456')
+  Admin.destroy_all
+  Admin.create(email: 'zil@norvilis.com', password: '123456', password_confirmation: '123456')
   p 'Admin created'
 end
 
