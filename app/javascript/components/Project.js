@@ -10,7 +10,7 @@ const Project = ({ project }) => {
     <div
       className={`project ${
         ["2", "4", "8"].includes(project.position)
-          ? "span-row-2  span-col-2"
+          ? "project-big span-row-2  span-col-2"
           : ""
       }`}
       style={{

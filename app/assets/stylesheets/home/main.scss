@@ -197,12 +197,12 @@
   }
 
   .project-button-wrapper {
-    margin-left: 1rem;
+    margin: 0;
+    padding: 0;
     display: flex;
     align-items: center;
-    text-align: center;
-    justify-content:center;
-    width: 20rem;
+    // text-align: center;
+    justify-content: center;
     height: 5rem;
     background: $accent;
   }
@@ -213,7 +213,6 @@
     border: none;
     outline: none;
     font-weight: 400;
-    margin-left: 1rem;
     text-decoration: none;
   }
   
@@ -442,7 +441,7 @@
   
     .project-button {
       font-size: 1.75rem;
-      width: 25rem;
+      padding: 2rem;
     }
   
     .squares-wrapper {
@@ -549,6 +548,18 @@
       grid-gap: 1rem;
       grid-template-columns: repeat(3, 1fr);
       // grid-template-rows: repeat(6, 1fr);
+    }
+
+    .project-big .project-title{
+      font-size: 4rem;
+    }
+  
+    .project-big .tag{
+      font-size: 2rem;
+    }
+  
+    .project-big .project-button {
+      font-size: 2.4rem;
     }
   
     .span-col-2 {
