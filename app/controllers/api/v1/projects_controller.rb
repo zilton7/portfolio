@@ -2,7 +2,7 @@ module Api
   module V1
     class ProjectsController < ApplicationController
       def index
-        @projects = Project.all
+        @projects = Project.where.not(position: '0')
 
         render json: @projects.to_json
       end
