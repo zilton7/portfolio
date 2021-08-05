@@ -28,7 +28,7 @@ projects = [
     "name": 'Gift Grouping App',
     "description": 'Gift Grouping is a mobile-only app where you can sign up and/or sign in, create groups and add gifts. View created groups created by all users and view only signed in user\'s added gifts.',
     "tags": ' Ruby on Rails, PostgreSQL, Bootstrap ',
-    "image": 'https://zil.norvilis.com/assets/grouping-app-screenshot.png',
+    "image": 'https://i.ibb.co/SVSSQ4t/grouping-app-screenshot.png',
     "live_link": 'https://grouping-app.herokuapp.com/',
     "source_link": 'https://github.com/zilton7/grouping-app',
     "position": '2'
@@ -37,7 +37,7 @@ projects = [
     "name": 'Complete CRUD Application',
     "description": 'Complete CRUD application that allows users to sign in/sign up and create/edit/delete announcements on the page, add images to their announcement, and view announcements by categories, authors, and networks.',
     "tags": ' Ruby on Rails, PostgreSQL, HTML/CSS',
-    "image": 'https://zil.norvilis.com/assets/launchzilla-screenshot.png',
+    "image": 'https://i.ibb.co/drfPLgZ/launchzilla-screenshot.png',
     "live_link": 'http://launchzilla.herokuapp.com/',
     "source_link": '',
     "position": '3'
@@ -46,7 +46,7 @@ projects = [
     "name": 'Telegram Birthday Bot',
     "description": 'A bot that uses a couple of gems and the hiztory.org API to assess a user\'s birthday input and check if it\'s a valid date. If so, it fetches data from the external API. This data consists of famous people born on the same month/day. All this information is returned to the user as a Telegram message.',
     "tags": 'Ruby, Telegram API',
-    "image": 'https://zil.norvilis.com/assets/telegram-bot-screenshot.png',
+    "image": 'https://i.ibb.co/2hvhw0w/telegram-bot-screenshot.png',
     "live_link": '',
     "source_link": 'https://github.com/zilton7/telegram-bot',
     "position": '4'
@@ -55,7 +55,7 @@ projects = [
     "name": 'Zilda - RPG Game',
     "description": 'An RPG game built using the Phaser 3 Framework. This fully working game was built in five days using best JavaScript practices.',
     "tags": 'JavaScript, Phaser 3',
-    "image": 'https://zil.norvilis.com/assets/zilda-screenshot.png',
+    "image": 'https://i.ibb.co/QnJWmzy/zilda-screenshot.png	',
     "live_link": 'https://zilton7.github.io/zilda-rpg/',
     "source_link": 'https://github.com/zilton7/zilda-rpg',
     "position": '5'
@@ -64,7 +64,7 @@ projects = [
     "name": 'Flagify Game',
     "description": 'An RPG game built using the Phaser 3 Framework. This fully working game was built in five days using best JavaScript practices.',
     "tags": 'JavaScript, HTML/CSS',
-    "image": 'https://zil.norvilis.com/assets/flagify-screenshot.png',
+    "image": 'https://i.ibb.co/Vq5LLjV/flagify-screenshot.png',
     "live_link": 'https://zilton7.github.io/flagify/',
     "source_link": 'https://github.com/zilton7/flagify',
     "position": '6'
@@ -73,7 +73,7 @@ projects = [
     "name": 'Weather App',
     "description": 'A weather application with basic styling, built using JavaScript and the OpenWeatherMap.org\'s API. The visitor is able to input the name of the city and instantly get weather information for the provided location.',
     "tags": 'JavaScript, HTML/CSS',
-    "image": 'https://zil.norvilis.com/assets/weather-app.png',
+    "image": 'https://i.ibb.co/vq0mG30/weather-app.png',
     "live_link": 'https://zilton7.github.io/weather-app/',
     "source_link": 'https://github.com/zilton7/weather-app',
     "position": '7'
@@ -82,7 +82,7 @@ projects = [
     "name": 'Todo App',
     "description": 'A simple To-Do-List app built using Node and webpack. Users have the ability to add projects, add tasks to each project, and include project description, due date, and priority.',
     "tags": 'JavaScript, Node, HTML/CSS',
-    "image": 'https://zil.norvilis.com/assets/todo-app-screenshot.JPG',
+    "image": 'https://i.ibb.co/7n2m2cG/todo-app-screenshot.jpg',
     "live_link": 'https://aymanjabr.github.io/To-do-list-app/',
     "source_link": 'https://github.com/zilton7/To-do-list-app',
     "position": '8'
