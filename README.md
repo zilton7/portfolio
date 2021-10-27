@@ -2,13 +2,14 @@
 
 ![screenshot](./app_screenshot.png)
 
-This is my personal portfolio website. Built on HTML, CSS and JavaScript. This was built with responsiveness in mind.
+This is my personal portfolio website. Built on React and Ruby on Rails. This was built with responsiveness in mind.
 
 ## Built With
 
+- Ruby on Rails
+- React
 - HTML
 - CSS
-- JavaScript
 
 ## Live Demo
 
