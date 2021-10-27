@@ -12,7 +12,7 @@ Rails.application.routes.draw do
     resources :dashboard, only: [:index]
     resources :projects
     resources :abilities
-      resources :links
+    resources :links
   end
   
 
