@@ -12,7 +12,7 @@ This is my personal portfolio website. Built on HTML, CSS and JavaScript. This w
 
 ## Live Demo
 
-[Live Demo Link](https://zilton7.github.io/portfolio/)
+[Live Demo Link](https://norvilis.com)
 
 ### To get a local copy up and running:
 
