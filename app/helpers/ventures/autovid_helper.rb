@@ -1,0 +1,2 @@
+module Ventures::AutovidHelper
+end

@@ -7,6 +7,12 @@ Rails.application.routes.draw do
   devise_scope :admin do
     get '/admin', to: 'dashboard#index'
   end
+
+  namespace :ventures do
+    get '/autovid', to: 'autovid#show'
+    get '/autovid-pp', to: 'autovid#pp'
+    get '/autovid-tos', to: 'autovid#tos'
+  end
   
   scope :admin do
     resources :dashboard, only: [:index]
