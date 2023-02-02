@@ -13,7 +13,7 @@ This is my personal portfolio website. Built on React and Ruby on Rails. This wa
 
 ## Live Demo
 
-[Live Demo Link](https://norvilis.com)
+[Live Demo Link](https://zilton7.github.io/portfolio/)
 
 ### To get a local copy up and running:
 
